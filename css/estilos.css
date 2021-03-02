@@ -99,13 +99,12 @@ body {
 
 /* FOOTER */
 .footer {
-  margin-top: 5vh;
+  margin-top: 50px;
+  margin-bottom: 0;
   width: 100%;
-  max-height: 250px;
   background: linear-gradient(to top right, #BA3014 0%, #224F99 100%); }
   .footer .footer__div-enlaces {
     width: 100%;
-    max-height: 250px;
     display: grid;
     grid-template-areas: "fulbo            creador"         "diseño           diseño";
     grid-template-columns: 50% 50%;
@@ -114,8 +113,8 @@ body {
       grid-area: fulbo;
       width: 100%;
       display: grid;
-      grid-template-rows: 1fr 1fr 1fr;
-      justify-content: flex-start;
+      grid-template-rows: 0.5fr 0.5fr 0.5fr;
+      justify-content: center;
       padding-left: 20px; }
       .footer .footer__div-enlaces .footer__fulbo .footer__titulo {
         font-family: "Pridi", serif;
@@ -134,7 +133,7 @@ body {
       width: 100%;
       display: grid;
       grid-template-rows: max-content;
-      justify-content: flex-start; }
+      justify-content: center; }
       .footer .footer__div-enlaces .footer__creador .footer__titulo {
         font-family: "Pridi", serif;
         font-size: 18pt;
@@ -157,22 +156,21 @@ body {
         color: #FFD163;
         text-align: center; }
       .footer .footer__div-enlaces .footer__diseño .footer__titulo--diseño {
-        font-size: 20pt;
+        font-size: 14pt;
         border-bottom: none; }
       .footer .footer__div-enlaces .footer__diseño .footer__icono {
         font-size: 16pt; }
 
 /* CONTENIDO INDEX */
 .contenedor-img {
+  margin: auto;
   padding-top: 15vh;
   padding-bottom: 15vh;
   height: fit-content; }
   .contenedor-img .contenedor-img__img {
     margin: auto;
-    max-width: 1200px;
-    height: auto;
-    border-radius: 35px;
-    box-shadow: 15px 15px 10px #ffffff; }
+    width: 100%;
+    height: auto; }
   .contenedor-img .contenedor-img__img:hover {
     transform: scale(1.1, 1.1);
     transition: 2s; }
@@ -213,20 +211,19 @@ body {
 .section-historia--rowrev {
   flex-direction: row-reverse; }
 
-/* REGLAS */
+/* CONTENIDO Y REGLAS */
 .reglas {
-  width: 1200px;
-  height: auto;
-  margin: auto;
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column; }
   .reglas .reglas__div-jug-y-dts {
-    width: 1200px;
-    height: 70vh;
+    max-width: 100%;
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: 100%;
-    margin-top: 15vh; }
+    margin-top: 150px;
+    margin-bottom: 50px; }
     .reglas .reglas__div-jug-y-dts .reglas__div-texto {
       display: flex;
       flex-direction: column;
@@ -235,7 +232,8 @@ body {
         font-family: "Pridi", serif;
         font-size: 22pt;
         color: #FFD163;
-        margin: 0; }
+        margin: 0;
+        text-shadow: 2px 2px black; }
       .reglas .reglas__div-jug-y-dts .reglas__div-texto .reglas__parrafo-jugadores {
         width: 90%;
         font-family: "Open Sans", sans-serif, justify;
@@ -243,16 +241,19 @@ body {
         line-height: 150%;
         font-size: 16pt;
         justify-self: center;
-        text-align: justify; }
+        text-align: justify;
+        text-shadow: 2px 2px black; }
     .reglas .reglas__div-jug-y-dts .reglas__img-jug-y-dts {
       justify-self: center;
       align-items: center; }
   .reglas .reglas__div-equipos {
-    width: 1200px;
-    height: 95vh;
+    max-width: 1200px;
+    height: auto;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 30% 70%; }
+    grid-template-rows: 30% 70%;
+    margin-top: 50px;
+    margin-bottom: 50px; }
     .reglas .reglas__div-equipos .reglas__div-texto {
       display: flex;
       flex-direction: column; }
@@ -261,7 +262,8 @@ body {
         font-size: 22pt;
         color: #FFD163;
         margin: 0;
-        text-align: center; }
+        text-align: center;
+        text-shadow: 2px 2px black; }
       .reglas .reglas__div-equipos .reglas__div-texto .reglas__parrafo-equipos {
         width: 100%;
         font-family: "Open Sans", sans-serif, justify;
@@ -269,16 +271,16 @@ body {
         line-height: 150%;
         font-size: 16pt;
         justify-self: center;
-        text-align: justify; }
+        text-align: justify;
+        text-shadow: 2px 2px black; }
     .reglas .reglas__div-equipos .reglas__img-equipos {
-      width: 100%; }
+      max-width: 1200px; }
   .reglas .reglas__div-modificadoras {
-    width: 1200px;
-    height: 1200px;
+    max-width: 1200px;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 40% 60%;
-    margin-bottom: 10vh; }
+    margin-bottom: 50px; }
     .reglas .reglas__div-modificadoras .reglas__div-texto {
       display: flex;
       flex-direction: column;
@@ -288,26 +290,28 @@ body {
         font-size: 22pt;
         color: #FFD163;
         margin: 0;
-        text-align: center; }
+        text-align: center;
+        text-shadow: 2px 2px black; }
       .reglas .reglas__div-modificadoras .reglas__div-texto .reglas__parrafo-modificadoras {
-        width: 100%;
+        max-width: 1200px;
         font-family: "Open Sans", sans-serif, justify;
         color: #ffffff;
         line-height: 150%;
         font-size: 16pt;
         justify-self: center;
-        text-align: justify; }
+        text-align: justify;
+        text-shadow: 2px 2px black; }
     .reglas .reglas__div-modificadoras .reglas__img-equipos {
-      width: 100%; }
+      max-width: 1200px; }
 
 /* HISTORIA */
 .section-creacion {
-  width: 1200px;
-  padding-top: 15vh;
-  margin: auto; }
+  max-width: 1200px;
+  padding-top: 150px;
+  margin: auto;
+  padding-bottom: 50px; }
   .section-creacion .section-creacion__div {
-    width: 1200px;
-    height: 15vh;
+    max-width: 1200px;
     display: flex;
     flex-direction: column; }
     .section-creacion .section-creacion__div .section-creacion__titulo {
@@ -317,7 +321,7 @@ body {
       margin: 0;
       text-align: center; }
     .section-creacion .section-creacion__div .section-creacion__parrafo {
-      width: 100%;
+      max-width: 100%;
       font-family: "Open Sans", sans-serif, justify;
       color: #ffffff;
       line-height: 150%;
@@ -326,13 +330,13 @@ body {
       text-align: justify; }
 
 .section-youtube {
-  width: 1200px;
-  height: fit-content;
-  margin: auto;
-  padding-top: 10vh; }
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px; }
   .section-youtube .section-youtube__video {
     width: 1200px;
-    height: 70vh;
+    height: 600px;
     border-radius: 25px;
     border: solid 2px #638AC2;
     box-shadow: rgba(0, 0, 0, 0.507) 10px 10px; }
@@ -375,11 +379,11 @@ body {
 /* CONTACTO */
 .section-form {
   width: 1200px;
-  padding-top: 15vh;
+  padding-top: 150px;
   margin: auto; }
   .section-form .form {
     width: 50%;
-    height: 750px;
+    height: auto;
     background: #ffffff;
     margin: auto;
     border-radius: 15px; }
@@ -394,20 +398,20 @@ body {
         font-size: 22pt;
         color: #224F99;
         margin: 0;
-        padding: 5vh 0;
+        padding: 30px 0;
         text-align: center; }
       .section-form .form .form__div .form__div-nombre {
         width: 70%;
-        padding-bottom: 5vh; }
+        padding-bottom: 35px; }
       .section-form .form .form__div .form__div-email {
         width: 70%;
-        padding-bottom: 5vh; }
+        padding-bottom: 35px; }
       .section-form .form .form__div .form__div-asunto {
         width: 70%;
-        padding-bottom: 5vh; }
+        padding-bottom: 35px; }
       .section-form .form .form__div .form__div-textarea {
         width: 70%;
-        padding-bottom: 5vh;
+        padding-bottom: 25px;
         font-family: "Open Sans", sans-serif, justify;
         font-size: 12pt; }
       .section-form .form .form__div input:focus ~ .form__barra::before, .section-form .form .form__div textarea:focus ~ .form__barra::before {
@@ -450,11 +454,23 @@ body {
         position: relative;
         top: -7vh;
         left: 1vh;
-        font-size: 8pt;
+        font-size: 12pt;
         color: #165C21; }
       .section-form .form .form__div textarea:focus ~ label, .section-form .form .form__div textarea:valid ~ label {
         position: relative;
         top: -16vh;
         left: 1vh;
-        font-size: 8pt;
+        font-size: 12pt;
         color: #165C21; }
+      .section-form .form .form__div .form__button {
+        display: block;
+        width: 25%;
+        height: 50px;
+        margin: 10px 0 35px 0;
+        border: none;
+        color: black;
+        background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
+        font-family: "Pridi", serif;
+        font-size: 12pt;
+        border-radius: 5px;
+        cursor: pointer; }
