@@ -1,0 +1,463 @@
+@charset "UTF-8";
+/* VARIABLES COLOR */
+/* VARIABLES FUENTES */
+.main-video {
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 25px; }
+  .main-video .main-video__video {
+    margin: auto;
+    max-width: 100%; }
+
+.introduccion {
+  max-width: 1200px;
+  display: flex;
+  padding: 30px 0; }
+  .introduccion .introduccion__div {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .introduccion .introduccion__div .introduccion__titulo {
+      font-family: "Pridi", serif;
+      font-size: calc(2rem + 1vw);
+      color: #FFD163;
+      margin: auto;
+      text-shadow: 2px 2px black; }
+    .introduccion .introduccion__div .introduccion__parrafo {
+      width: 100%;
+      font-family: "Open Sans", sans-serif, justify;
+      color: #ffffff;
+      line-height: 150%;
+      font-size: calc(1rem + 0.5vw);
+      justify-self: center;
+      text-align: justify;
+      text-shadow: 2px 2px black; }
+
+/* CONTENIDO Y REGLAS */
+.reglas {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; }
+  .reglas .reglas__div-jug-y-dts {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 100%;
+    margin-top: 150px;
+    margin-bottom: 50px; }
+    .reglas .reglas__div-jug-y-dts .reglas__div-texto {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .reglas .reglas__div-jug-y-dts .reglas__div-texto .reglas__titulo-jugadores {
+        font-family: "Pridi", serif;
+        font-size: 22pt;
+        color: #FFD163;
+        margin: 0;
+        text-shadow: 2px 2px black; }
+      .reglas .reglas__div-jug-y-dts .reglas__div-texto .reglas__parrafo-jugadores {
+        width: 90%;
+        font-family: "Open Sans", sans-serif, justify;
+        color: #ffffff;
+        line-height: 150%;
+        font-size: 16pt;
+        justify-self: center;
+        text-align: justify;
+        text-shadow: 2px 2px black; }
+    .reglas .reglas__div-jug-y-dts .reglas__img-jug-y-dts {
+      justify-self: center;
+      align-items: center; }
+  .reglas .reglas__span {
+    border-bottom: solid 2px #ffffff;
+    width: 80%;
+    margin: auto;
+    padding: 15px 0;
+    opacity: 0.7; }
+  .reglas .reglas__div-equipos {
+    max-width: 1200px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 70%;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    .reglas .reglas__div-equipos .reglas__div-texto {
+      display: flex;
+      flex-direction: column; }
+      .reglas .reglas__div-equipos .reglas__div-texto .reglas__titulo-equipos {
+        font-family: "Pridi", serif;
+        font-size: 22pt;
+        color: #FFD163;
+        margin: 0;
+        text-align: center;
+        text-shadow: 2px 2px black; }
+      .reglas .reglas__div-equipos .reglas__div-texto .reglas__parrafo-equipos {
+        width: 100%;
+        font-family: "Open Sans", sans-serif, justify;
+        color: #ffffff;
+        line-height: 150%;
+        font-size: 16pt;
+        justify-self: center;
+        text-align: justify;
+        text-shadow: 2px 2px black; }
+    .reglas .reglas__div-equipos .reglas__img-equipos {
+      max-width: 1200px; }
+  .reglas .reglas__div-modificadoras {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 60%;
+    margin-bottom: 50px; }
+    .reglas .reglas__div-modificadoras .reglas__div-texto {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .reglas .reglas__div-modificadoras .reglas__div-texto .reglas__titulo-modificadoras {
+        font-family: "Pridi", serif;
+        font-size: 22pt;
+        color: #FFD163;
+        margin: 0;
+        text-align: center;
+        text-shadow: 2px 2px black; }
+      .reglas .reglas__div-modificadoras .reglas__div-texto .reglas__parrafo-modificadoras {
+        max-width: 1200px;
+        font-family: "Open Sans", sans-serif, justify;
+        color: #ffffff;
+        line-height: 150%;
+        font-size: 16pt;
+        justify-self: center;
+        text-align: justify;
+        text-shadow: 2px 2px black; }
+    .reglas .reglas__div-modificadoras .reglas__img-equipos {
+      max-width: 1200px; }
+
+.section-creacion {
+  max-width: 1200px;
+  padding-top: 150px;
+  margin: auto;
+  padding-bottom: 50px; }
+  .section-creacion .section-creacion__div {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column; }
+    .section-creacion .section-creacion__div .section-creacion__titulo {
+      font-family: "Pridi", serif;
+      font-size: 22pt;
+      color: #FFD163;
+      margin: 0;
+      text-align: center; }
+    .section-creacion .section-creacion__div .section-creacion__parrafo {
+      max-width: 100%;
+      font-family: "Open Sans", sans-serif, justify;
+      color: #ffffff;
+      line-height: 150%;
+      font-size: 16pt;
+      justify-self: center;
+      text-align: justify; }
+
+.section-youtube {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .section-youtube .section-youtube__video {
+    width: 1200px;
+    height: 600px;
+    border-radius: 25px;
+    border: solid 2px #638AC2;
+    box-shadow: rgba(0, 0, 0, 0.507) 10px 10px; }
+
+.galeria {
+  width: 1200px;
+  height: 50vh;
+  padding-top: 15vh;
+  margin: auto; }
+  .galeria .galeria__div-titulo {
+    width: 100%; }
+    .galeria .galeria__div-titulo .galeria__titulo {
+      font-family: "Pridi", serif;
+      font-size: 22pt;
+      color: #FFD163;
+      margin: 0;
+      text-align: center; }
+  .galeria .galeria__div-imagenes {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: auto;
+    justify-items: center; }
+    .galeria .galeria__div-imagenes .galeria__img {
+      width: 350px;
+      height: 300px;
+      border: solid black 2px;
+      border-radius: 10px; }
+    .galeria .galeria__div-imagenes .galeria__img:hover {
+      animation-name: jugadores;
+      animation-duration: 2s; }
+
+@keyframes jugadores {
+  to {
+    transform: translate(60px, 0) rotate(-5deg) scale(1.2, 1.2); }
+  from {
+    position: initial; } }
+
+.section-form {
+  width: 1200px;
+  padding-top: 150px;
+  margin: auto; }
+  .section-form .form {
+    width: 50%;
+    height: auto;
+    background: #ffffff;
+    margin: auto;
+    border-radius: 15px; }
+    .section-form .form .form__div {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .section-form .form .form__div .form__titulo {
+        font-family: "Pridi", serif;
+        font-size: 22pt;
+        color: #224F99;
+        margin: 0;
+        padding: 30px 0;
+        text-align: center; }
+      .section-form .form .form__div .form__div-nombre {
+        width: 70%;
+        padding-bottom: 35px; }
+      .section-form .form .form__div .form__div-email {
+        width: 70%;
+        padding-bottom: 35px; }
+      .section-form .form .form__div .form__div-asunto {
+        width: 70%;
+        padding-bottom: 35px; }
+      .section-form .form .form__div .form__div-textarea {
+        width: 70%;
+        padding-bottom: 25px;
+        font-family: "Open Sans", sans-serif, justify;
+        font-size: 12pt; }
+      .section-form .form .form__div input:focus ~ .form__barra::before, .section-form .form .form__div textarea:focus ~ .form__barra::before {
+        width: 100%; }
+      .section-form .form .form__div .form__barra {
+        position: relative;
+        display: block;
+        width: 100%; }
+      .section-form .form .form__div .form__barra::before {
+        content: '';
+        height: 2px;
+        width: 0;
+        bottom: 0;
+        position: absolute;
+        background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
+        transition: 0.3s ease all;
+        left: 0; }
+      .section-form .form .form__div .form__label {
+        font-family: "Open Sans", sans-serif, justify;
+        color: #165C21;
+        position: relative;
+        top: -4vh;
+        left: 1vh;
+        transition: 0.5s ease all;
+        pointer-events: none; }
+      .section-form .form .form__div input, .section-form .form .form__div textarea {
+        background: none;
+        color: black;
+        font-size: 12pt;
+        padding: 15px 0px;
+        display: block;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #638AC2;
+        resize: none; }
+      .section-form .form .form__div input:focus, .section-form .form .form__div textarea {
+        outline: none;
+        color: #638AC2; }
+      .section-form .form .form__div input:focus ~ label, .section-form .form .form__div input:valid ~ label {
+        position: relative;
+        top: -7vh;
+        left: 1vh;
+        font-size: 12pt;
+        color: #165C21; }
+      .section-form .form .form__div textarea:focus ~ label, .section-form .form .form__div textarea:valid ~ label {
+        position: relative;
+        top: -16vh;
+        left: 1vh;
+        font-size: 12pt;
+        color: #165C21; }
+      .section-form .form .form__div .form__button {
+        display: block;
+        width: 25%;
+        height: 50px;
+        margin: 10px 0 35px 0;
+        border: none;
+        color: black;
+        background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
+        font-family: "Pridi", serif;
+        font-size: 12pt;
+        border-radius: 5px;
+        cursor: pointer; }
+
+/* VARIABLES */
+/* GENERAL */
+a {
+  text-decoration: none; }
+
+body {
+  margin: auto;
+  box-sizing: border-box;
+  background-color: #638AC2;
+  background-image: url("../media/textura-rectangular.jpg");
+  background-image: url("../media/Fondito_Web.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: center; }
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+/* HEADER */
+.header {
+  margin-top: 0;
+  margin-left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 2;
+  position: fixed;
+  background: #165C21;
+  opacity: 0.9; }
+  .header .header__nav {
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: row; }
+    .header .header__nav .header__div-logo {
+      max-width: 30%;
+      max-height: 70px;
+      display: flex;
+      flex-direction: row;
+      animation-name: fulbo;
+      -webkit-animation-name: fulbo;
+      -webkit-animation-duration: 1.5s;
+      animation-duration: 1.5s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both; }
+
+@-webkit-keyframes fulbo {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes fulbo {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+      .header .header__nav .header__div-logo .header__enlace {
+        text-decoration: none; }
+      .header .header__nav .header__div-logo .header__logo {
+        max-width: 320px; }
+    .header .header__nav .header__div-barraNav {
+      margin: auto;
+      width: 70%;
+      max-height: 70px; }
+      .header .header__nav .header__div-barraNav .header__barraNav {
+        margin: 0;
+        list-style: none;
+        max-height: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-content: center;
+        align-items: center; }
+        .header .header__nav .header__div-barraNav .header__barraNav .header__linkNav {
+          font-family: "Pridi", serif;
+          text-transform: capitalize;
+          color: #FFD163;
+          font-size: 16pt;
+          opacity: 1; }
+        .header .header__nav .header__div-barraNav .header__barraNav .header__linkNav:hover {
+          color: #BA3014;
+          font-size: 200%;
+          font-weight: 400; }
+        .header .header__nav .header__div-barraNav .header__barraNav .header__linkNav--linkActivo {
+          color: #BA3014;
+          font-size: 200%;
+          font-weight: 400; }
+
+/* FOOTER */
+.footer {
+  margin-top: 50px;
+  margin-bottom: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, #061700, #165C21); }
+  .footer .footer__div-enlaces {
+    width: 100%;
+    display: grid;
+    grid-template-areas: "fulbo            creador"         "diseño           diseño";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 70% 30%; }
+    .footer .footer__div-enlaces .footer__fulbo {
+      grid-area: fulbo;
+      width: 100%;
+      display: grid;
+      grid-template-rows: 0.5fr 0.5fr 0.5fr;
+      justify-content: center;
+      padding-left: 20px; }
+      .footer .footer__div-enlaces .footer__fulbo .footer__titulo {
+        font-family: "Pridi", serif;
+        font-size: 18pt;
+        border-bottom: solid 1px #ffffff;
+        color: #FFD163;
+        text-align: center; }
+      .footer .footer__div-enlaces .footer__fulbo .footer__insta, .footer .footer__div-enlaces .footer__fulbo .footer__email, .footer .footer__div-enlaces .footer__fulbo .footer__face {
+        font-family: "Open Sans", sans-serif, justify;
+        font-size: 14pt;
+        color: #ffffff; }
+      .footer .footer__div-enlaces .footer__fulbo .footer__icono {
+        font-size: 16pt; }
+    .footer .footer__div-enlaces .footer__creador {
+      grid-area: creador;
+      width: 100%;
+      display: grid;
+      grid-template-rows: max-content;
+      justify-content: center; }
+      .footer .footer__div-enlaces .footer__creador .footer__titulo {
+        font-family: "Pridi", serif;
+        font-size: 18pt;
+        border-bottom: solid 1px #ffffff;
+        color: #FFD163;
+        text-align: center; }
+      .footer .footer__div-enlaces .footer__creador .footer__behance {
+        font-family: "Open Sans", sans-serif, justify;
+        font-size: 14pt;
+        color: #ffffff; }
+      .footer .footer__div-enlaces .footer__creador .footer__icono {
+        font-size: 16pt; }
+    .footer .footer__div-enlaces .footer__diseño {
+      grid-area: diseño;
+      padding-left: 20px; }
+      .footer .footer__div-enlaces .footer__diseño .footer__titulo {
+        font-family: "Pridi", serif;
+        font-size: 18pt;
+        border-bottom: solid 1px #ffffff;
+        color: #FFD163;
+        text-align: center; }
+      .footer .footer__div-enlaces .footer__diseño .footer__titulo--diseño {
+        font-size: 14pt;
+        border-bottom: none; }
+      .footer .footer__div-enlaces .footer__diseño .footer__icono {
+        font-size: 16pt; }

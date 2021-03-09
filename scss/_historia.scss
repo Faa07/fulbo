@@ -1,0 +1,40 @@
+.section-creacion {
+    max-width: 1200px;
+    padding-top: 150px;
+    margin: auto;
+    padding-bottom: 50px;
+    .section-creacion__div {
+        max-width: 1200px;         
+        display: flex;
+        flex-direction: column;
+        .section-creacion__titulo {
+            font-family: $fuente-titulo;
+            font-size: 22pt;
+            color: $amarillo;  
+            margin: 0; 
+            text-align: center;            
+        }
+        .section-creacion__parrafo {
+            max-width: 100%;
+            font-family: $fuente-parrafo;
+            color: $white;                
+            line-height: 150%;
+            font-size: 16pt;
+            justify-self: center;    
+            text-align: justify;             
+        }
+    }
+}
+.section-youtube {
+    max-width: 1200px;    
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .section-youtube__video {
+        width: 1200px; 
+        height: 600px;       
+        border-radius: 25px;
+        border: solid 2px $light-blue;
+        box-shadow: rgba(0, 0, 0, 0.507) 10px 10px ;
+    }
+}
