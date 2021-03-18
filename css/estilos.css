@@ -20,7 +20,7 @@
     justify-content: center; }
     .introduccion .introduccion__div .introduccion__titulo {
       font-family: "Pridi", serif;
-      font-size: calc(2rem + 1vw);
+      font-size: calc(1.5rem + 1vw);
       color: #FFD163;
       margin: auto;
       text-shadow: 2px 2px black; }
@@ -29,7 +29,7 @@
       font-family: "Open Sans", sans-serif, justify;
       color: #ffffff;
       line-height: 150%;
-      font-size: calc(1rem + 0.5vw);
+      font-size: calc(0.3rem + 0.8vw);
       justify-self: center;
       text-align: justify;
       text-shadow: 2px 2px black; }
@@ -97,7 +97,7 @@
   flex-direction: column; }
   .tipos-de-cartas .tipos-de-cartas__titulo {
     font-family: "Pridi", serif;
-    font-size: calc(1.3rem + 1vw);
+    font-size: calc(1rem + 1vw);
     color: #FFD163;
     margin: auto;
     text-shadow: 2px 2px black; }
@@ -112,9 +112,9 @@
       display: flex;
       flex-direction: column;
       justify-content: center; }
-      .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__div-texto .tipos-de-cartas__titulo-jugadores {
+      .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__div-texto .tipos-de-cartas__subtitulo-jugadores {
         font-family: "Pridi", serif;
-        font-size: 22pt;
+        font-size: calc(0.8rem + 1vw);
         color: #FFD163;
         margin: 0;
         text-shadow: 2px 2px black; }
@@ -123,7 +123,7 @@
         font-family: "Open Sans", sans-serif, justify;
         color: #ffffff;
         line-height: 150%;
-        font-size: 16pt;
+        font-size: calc(0.3rem + 0.8vw);
         justify-self: center;
         text-align: justify;
         text-shadow: 2px 2px black; }
@@ -147,9 +147,9 @@
     .tipos-de-cartas .tipos-de-cartas__div-equipos .tipos-de-cartas__div-texto {
       display: flex;
       flex-direction: column; }
-      .tipos-de-cartas .tipos-de-cartas__div-equipos .tipos-de-cartas__div-texto .tipos-de-cartas__titulo-equipos {
+      .tipos-de-cartas .tipos-de-cartas__div-equipos .tipos-de-cartas__div-texto .tipos-de-cartas__subtitulo-equipos {
         font-family: "Pridi", serif;
-        font-size: 22pt;
+        font-size: calc(0.8rem + 1vw);
         color: #FFD163;
         margin: 0;
         text-align: center;
@@ -159,7 +159,7 @@
         font-family: "Open Sans", sans-serif, justify;
         color: #ffffff;
         line-height: 150%;
-        font-size: 16pt;
+        font-size: calc(0.3rem + 0.8vw);
         justify-self: center;
         text-align: justify;
         text-shadow: 2px 2px black; }
@@ -171,15 +171,16 @@
     grid-template-columns: 100%;
     grid-template-rows: 40% 60%;
     margin-bottom: 50px;
+    margin-top: 50px;
     border-bottom: solid 1px #FFD163;
     padding-bottom: 50px; }
     .tipos-de-cartas .tipos-de-cartas__div-modificadoras .tipos-de-cartas__div-texto {
       display: flex;
       flex-direction: column;
       justify-content: center; }
-      .tipos-de-cartas .tipos-de-cartas__div-modificadoras .tipos-de-cartas__div-texto .tipos-de-cartas__titulo-modificadoras {
+      .tipos-de-cartas .tipos-de-cartas__div-modificadoras .tipos-de-cartas__div-texto .tipos-de-cartas__subtitulo-modificadoras {
         font-family: "Pridi", serif;
-        font-size: 22pt;
+        font-size: calc(0.8rem + 1vw);
         color: #FFD163;
         margin: 0;
         text-align: center;
@@ -189,11 +190,11 @@
         font-family: "Open Sans", sans-serif, justify;
         color: #ffffff;
         line-height: 150%;
-        font-size: 16pt;
+        font-size: calc(0.3rem + 0.8vw);
         justify-self: center;
         text-align: justify;
         text-shadow: 2px 2px black; }
-    .tipos-de-cartas .tipos-de-cartas__div-modificadoras .tipos-de-cartas__img-equipos {
+    .tipos-de-cartas .tipos-de-cartas__div-modificadoras .tipos-de-cartas__img-modificadoras {
       max-width: 1200px; }
 
 .partido {
@@ -210,7 +211,7 @@
     padding-bottom: 50px; }
     .partido .partido__div .partido__titulo {
       font-family: "Pridi", serif;
-      font-size: calc(1.3rem + 1vw);
+      font-size: calc(1rem + 1vw);
       color: #FFD163;
       margin: auto;
       text-shadow: 2px 2px black; }
@@ -219,7 +220,7 @@
       font-family: "Open Sans", sans-serif, justify;
       color: #ffffff;
       line-height: 150%;
-      font-size: calc(1rem + 0.5vw);
+      font-size: calc(0.3rem + 0.8vw);
       justify-self: center;
       text-align: justify;
       text-shadow: 2px 2px black; }
@@ -238,7 +239,7 @@
     padding-bottom: 50px; }
     .campeonato .campeonato__div .campeonato__titulo {
       font-family: "Pridi", serif;
-      font-size: calc(1.3rem + 1vw);
+      font-size: calc(1rem + 1vw);
       color: #FFD163;
       margin: auto;
       text-shadow: 2px 2px black; }
@@ -247,7 +248,7 @@
       font-family: "Open Sans", sans-serif, justify;
       color: #ffffff;
       line-height: 150%;
-      font-size: calc(1rem + 0.5vw);
+      font-size: calc(0.3rem + 0.8vw);
       justify-self: center;
       text-align: justify;
       text-shadow: 2px 2px black; }
@@ -265,7 +266,7 @@
     padding-bottom: 50px; }
     .ganador .ganador__div .ganador__titulo {
       font-family: "Pridi", serif;
-      font-size: calc(1.3rem + 1vw);
+      font-size: calc(1rem + 1vw);
       color: #FFD163;
       margin: auto;
       text-shadow: 2px 2px black; }
@@ -274,7 +275,7 @@
       font-family: "Open Sans", sans-serif, justify;
       color: #ffffff;
       line-height: 150%;
-      font-size: calc(1rem + 0.5vw);
+      font-size: calc(0.3rem + 0.8vw);
       justify-self: center;
       text-align: justify;
       text-shadow: 2px 2px black; }
@@ -286,7 +287,7 @@
   padding: 30px 0; }
   .contenido .contenido__titulo {
     font-family: "Pridi", serif;
-    font-size: calc(1.6rem + 1vw);
+    font-size: calc(1rem + 1vw);
     color: #FFD163;
     margin: auto;
     text-shadow: 2px 2px black; }
@@ -306,13 +307,13 @@
       font-family: "Open Sans", sans-serif, justify;
       color: #ffffff;
       line-height: 150%;
-      font-size: calc(0.6rem + 0.5vw);
+      font-size: calc(0.3rem + 0.8vw);
       justify-self: center;
       text-align: justify;
       text-shadow: 2px 2px black; }
   .contenido .contenido__subtitulo {
     font-family: "Pridi", serif;
-    font-size: calc(0.7rem + 1vw);
+    font-size: calc(0.8rem + 1vw);
     color: #FFD163;
     margin: auto;
     text-shadow: 2px 2px black; }
@@ -323,9 +324,9 @@
     justify-content: space-between;
     margin-top: 50px;
     padding-bottom: 50px; }
-    .contenido .contenido__div-cartas .contenido__div-modificadoras-titulo {
+    .contenido .contenido__div-cartas .contenido__div-modificadoras-subtitulo {
       font-family: "Pridi", serif;
-      font-size: calc(0.5rem + 1vw);
+      font-size: calc(0.8rem + 1vw);
       color: #FFD163;
       margin: auto;
       text-shadow: 2px 2px black; }
@@ -334,7 +335,7 @@
       font-family: "Open Sans", sans-serif, justify;
       color: #ffffff;
       line-height: 150%;
-      font-size: calc(0.6rem + 0.5vw);
+      font-size: calc(0.3rem + 0.8vw);
       justify-self: center;
       text-align: justify;
       text-shadow: 2px 2px black; }
@@ -350,18 +351,20 @@
     flex-direction: column; }
     .section-creacion .section-creacion__div .section-creacion__titulo {
       font-family: "Pridi", serif;
-      font-size: 22pt;
+      font-size: calc(1rem + 1vw);
       color: #FFD163;
       margin: 0;
-      text-align: center; }
+      text-align: center;
+      text-shadow: 2px 2px black; }
     .section-creacion .section-creacion__div .section-creacion__parrafo {
       max-width: 100%;
       font-family: "Open Sans", sans-serif, justify;
       color: #ffffff;
       line-height: 150%;
-      font-size: 16pt;
+      font-size: calc(0.3rem + 0.8vw);
       justify-self: center;
-      text-align: justify; }
+      text-align: justify;
+      text-shadow: 2px 2px black; }
 
 .section-youtube {
   max-width: 1200px;
@@ -375,39 +378,83 @@
     border: solid 2px #638AC2;
     box-shadow: rgba(0, 0, 0, 0.507) 10px 10px; }
 
-.galeria {
-  width: 1200px;
-  height: 50vh;
-  padding-top: 15vh;
+.galeria__titulo-div {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 150px;
+  margin-bottom: 50px; }
+  .galeria__titulo-div .galeria__titulo {
+    font-family: "Pridi", serif;
+    font-size: calc(1rem + 1vw);
+    color: #FFD163;
+    margin: auto;
+    text-shadow: 2px 2px black; }
+
+.galeria__section {
+  max-width: 1200px;
   margin: auto; }
-  .galeria .galeria__div-titulo {
-    width: 100%; }
-    .galeria .galeria__div-titulo .galeria__titulo {
-      font-family: "Pridi", serif;
-      font-size: 22pt;
-      color: #FFD163;
-      margin: 0;
-      text-align: center; }
-  .galeria .galeria__div-imagenes {
+  .galeria__section .galeria__div {
+    max-width: 100%;
     margin: auto;
     display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: auto;
-    justify-items: center; }
-    .galeria .galeria__div-imagenes .galeria__img {
-      width: 350px;
-      height: 300px;
-      border: solid black 2px;
-      border-radius: 10px; }
-    .galeria .galeria__div-imagenes .galeria__img:hover {
-      animation-name: jugadores;
-      animation-duration: 2s; }
-
-@keyframes jugadores {
-  to {
-    transform: translate(60px, 0) rotate(-5deg) scale(1.2, 1.2); }
-  from {
-    position: initial; } }
+    grid-template-areas: "1 2 3" "4 5 6" "7 8 9";
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 350px); }
+    .galeria__section .galeria__div .galeria__item-1 .galeria__img1 {
+      max-width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-area: 1; }
+    .galeria__section .galeria__div .galeria__item-2 .galeria__img2 {
+      max-width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-area: 2; }
+    .galeria__section .galeria__div .galeria__item-3 .galeria__img3 {
+      max-width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-area: 3; }
+    .galeria__section .galeria__div .galeria__item-4 .galeria__img4 {
+      max-width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-area: 4; }
+    .galeria__section .galeria__div .galeria__item-5 {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      background-color: #ffffff;
+      justify-content: center; }
+      .galeria__section .galeria__div .galeria__item-5 .galeria__img5 {
+        max-width: 100%;
+        height: auto;
+        grid-area: 5;
+        padding: 15px; }
+    .galeria__section .galeria__div .galeria__item-6 .galeria__img6 {
+      max-width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-area: 6; }
+    .galeria__section .galeria__div .galeria__item-7 .galeria__img7 {
+      max-width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-area: 7; }
+    .galeria__section .galeria__div .galeria__item-8 .galeria__img8 {
+      max-width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-area: 8; }
+    .galeria__section .galeria__div .galeria__item-9 .galeria__img9 {
+      max-width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-area: 9; }
 
 .section-form {
   width: 1200px;
@@ -512,6 +559,11 @@
 
 /* VARIABLES */
 /* GENERAL */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 a {
   text-decoration: none; }
 
@@ -544,9 +596,6 @@ body {
     flex-direction: row; }
     .header .header__nav .header__div-logo {
       max-width: 30%;
-      max-height: 70px;
-      display: flex;
-      flex-direction: row;
       animation-name: fulbo;
       -webkit-animation-name: fulbo;
       -webkit-animation-duration: 1.5s;
@@ -577,6 +626,8 @@ body {
         text-decoration: none; }
       .header .header__nav .header__div-logo .header__logo {
         max-width: 320px; }
+    .header .header__nav .header__div-menu {
+      display: none; }
     .header .header__nav .header__div-barraNav {
       margin: auto;
       width: 70%;
@@ -626,16 +677,16 @@ body {
       padding-left: 20px; }
       .footer .footer__div-enlaces .footer__fulbo .footer__titulo {
         font-family: "Pridi", serif;
-        font-size: 18pt;
+        font-size: calc(0.5rem + 1vw);
         border-bottom: solid 1px #ffffff;
         color: #FFD163;
         text-align: center; }
       .footer .footer__div-enlaces .footer__fulbo .footer__insta, .footer .footer__div-enlaces .footer__fulbo .footer__email, .footer .footer__div-enlaces .footer__fulbo .footer__face {
         font-family: "Open Sans", sans-serif, justify;
-        font-size: 14pt;
+        font-size: calc(0.3rem + 0.8vw);
         color: #ffffff; }
       .footer .footer__div-enlaces .footer__fulbo .footer__icono {
-        font-size: 16pt; }
+        font-size: calc(0.7rem + 0.8vw); }
     .footer .footer__div-enlaces .footer__creador {
       grid-area: creador;
       width: 100%;
@@ -644,27 +695,1176 @@ body {
       justify-content: center; }
       .footer .footer__div-enlaces .footer__creador .footer__titulo {
         font-family: "Pridi", serif;
-        font-size: 18pt;
+        font-size: calc(0.5rem + 1vw);
         border-bottom: solid 1px #ffffff;
         color: #FFD163;
         text-align: center; }
       .footer .footer__div-enlaces .footer__creador .footer__behance {
         font-family: "Open Sans", sans-serif, justify;
-        font-size: 14pt;
+        font-size: calc(0.3rem + 0.8vw);
         color: #ffffff; }
       .footer .footer__div-enlaces .footer__creador .footer__icono {
-        font-size: 16pt; }
+        font-size: calc(0.7rem + 0.8vw); }
     .footer .footer__div-enlaces .footer__diseño {
       grid-area: diseño;
       padding-left: 20px; }
       .footer .footer__div-enlaces .footer__diseño .footer__titulo {
         font-family: "Pridi", serif;
-        font-size: 18pt;
+        font-size: calc(0.5rem + 1vw);
         border-bottom: solid 1px #ffffff;
         color: #FFD163;
         text-align: center; }
       .footer .footer__div-enlaces .footer__diseño .footer__titulo--diseño {
-        font-size: 14pt;
         border-bottom: none; }
-      .footer .footer__div-enlaces .footer__diseño .footer__icono {
-        font-size: 16pt; }
+
+@media all and (max-width: 575.98px) {
+  .contenedor {
+    max-width: 500px;
+    margin: 0 auto; }
+  /* HEADER */
+  .header {
+    position: static;
+    height: 80px; }
+    .header .header__nav {
+      display: grid;
+      grid-template-columns: 90% 10%; }
+      .header .header__nav .header__div-logo {
+        max-width: 100%;
+        animation-name: fulbo;
+        -webkit-animation-name: fulbo;
+        -webkit-animation-duration: 1.5s;
+        animation-duration: 1.5s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both; }
+  @-webkit-keyframes fulbo {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-2000px, 0, 0);
+      transform: translate3d(-2000px, 0, 0); }
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0); } }
+  @keyframes fulbo {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-2000px, 0, 0);
+      transform: translate3d(-2000px, 0, 0); }
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0); } }
+        .header .header__nav .header__div-logo .header__enlace {
+          text-decoration: none; }
+        .header .header__nav .header__div-logo .header__logo {
+          max-width: 200px; }
+      .header .header__nav .header__div-menu {
+        max-width: 100%;
+        position: relative;
+        display: block;
+        margin: auto; }
+        .header .header__nav .header__div-menu .header__boton {
+          background-color: #FFD163;
+          color: white;
+          padding: 10px;
+          font-size: calc(1rem + 1vw);
+          border: none;
+          cursor: pointer; }
+        .header .header__nav .header__div-menu .header__boton:hover {
+          color: #224F99; }
+        .header .header__nav .header__div-menu .header__div-submenu {
+          display: none;
+          position: absolute;
+          left: -250px;
+          background-color: #165C21;
+          min-width: 350px;
+          z-index: 1; }
+          .header .header__nav .header__div-menu .header__div-submenu .header__enlace-submenu {
+            text-decoration: none;
+            display: block;
+            font-family: "Pridi", serif;
+            font-size: calc(0.8rem + 1vw);
+            text-transform: capitalize;
+            color: #FFD163;
+            opacity: 1;
+            margin: auto;
+            padding: auto;
+            text-align: center; }
+          .header .header__nav .header__div-menu .header__div-submenu .header__enlace-submenu:hover {
+            color: #BA3014;
+            background-color: #FFD163; }
+      .header .header__nav .header__div-menu:hover .header__div-submenu {
+        display: block; }
+      .header .header__nav .header__div-barraNav {
+        display: none; }
+  /* FOOTER */
+  .footer .footer__div-enlaces .footer__fulbo .footer__titulo {
+    font-size: calc(1rem + 1vw); }
+  .footer .footer__div-enlaces .footer__fulbo .footer__insta, .footer .footer__div-enlaces .footer__fulbo .footer__email, .footer .footer__div-enlaces .footer__fulbo .footer__face {
+    font-size: calc(0.5rem + 0.8vw); }
+  .footer .footer__div-enlaces .footer__fulbo .footer__icono {
+    font-size: calc(1rem + 0.8vw); }
+  .footer .footer__div-enlaces .footer__creador {
+    grid-area: creador;
+    width: 100%;
+    display: grid;
+    grid-template-rows: max-content;
+    justify-content: center; }
+    .footer .footer__div-enlaces .footer__creador .footer__titulo {
+      font-size: calc(1rem + 1vw); }
+    .footer .footer__div-enlaces .footer__creador .footer__behance {
+      font-size: calc(0.5rem + 0.8vw); }
+    .footer .footer__div-enlaces .footer__creador .footer__icono {
+      font-size: calc(1rem + 0.8vw); }
+  .footer .footer__div-enlaces .footer__diseño .footer__titulo {
+    font-size: calc(0.5rem + 0.8vw); }
+  /* INDEX */
+  .main-video {
+    margin: -100px auto 10px auto; }
+    .main-video .main-video__video {
+      margin: auto;
+      max-width: 100%; }
+  .introduccion {
+    max-width: 500px;
+    margin-top: -30px; }
+    .introduccion .introduccion__div .introduccion__titulo {
+      font-size: calc(1.3rem + 1vw); }
+    .introduccion .introduccion__div .introduccion__parrafo {
+      line-height: 200%;
+      text-shadow: 1px 1px black;
+      font-weight: 900;
+      font-size: calc(0.5rem + 0.8vw); }
+  /* CONTENIDO Y REGLAS */
+  .sinopsis {
+    width: 500px;
+    margin-top: 0;
+    display: flex;
+    padding: 10px 0; }
+    .sinopsis .sinopsis__div {
+      margin-top: 30px;
+      border-bottom: solid 1px #FFD163;
+      padding-bottom: 20px; }
+      .sinopsis .sinopsis__div .sinopsis__titulo {
+        font-size: calc(1.3rem + 1vw); }
+      .sinopsis .sinopsis__div .sinopsis__parrafo {
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900;
+        font-size: calc(0.5rem + 0.8vw); }
+  .comienzo {
+    max-width: 500px;
+    padding: 10px 0; }
+    .comienzo .comienzo__div {
+      margin-top: 10px;
+      padding-bottom: 20px;
+      border-bottom: solid 1px #FFD163; }
+      .comienzo .comienzo__div .comienzo__titulo {
+        font-size: calc(1.3rem + 1vw); }
+      .comienzo .comienzo__div .comienzo__parrafo {
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900;
+        font-size: calc(0.5rem + 0.8vw); }
+  .tipos-de-cartas {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; }
+    .tipos-de-cartas .tipos-de-cartas__titulo {
+      padding-top: 20px;
+      font-size: calc(1.3rem + 1vw); }
+    .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts {
+      max-width: 100%;
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 30% 70%;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+      .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__div-texto {
+        display: block; }
+        .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__div-texto .tipos-de-cartas__subtitulo-jugadores {
+          margin: 10px auto;
+          font-size: calc(1rem + 1vw); }
+        .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__div-texto .tipos-de-cartas__parrafo-jugadores {
+          width: 100%;
+          line-height: 200%;
+          text-shadow: 1px 1px black;
+          font-weight: 900;
+          font-size: calc(0.5rem + 0.8vw); }
+      .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__img-jug-y-dts {
+        margin-top: -20px;
+        max-width: 500px; }
+    .tipos-de-cartas .tipos-de-cartas__span {
+      width: 80%;
+      margin: 20px auto;
+      padding: 0; }
+    .tipos-de-cartas .tipos-de-cartas__div-equipos {
+      max-width: 500px;
+      margin: auto; }
+      .tipos-de-cartas .tipos-de-cartas__div-equipos .tipos-de-cartas__div-texto .tipos-de-cartas__subtitulo-equipos {
+        font-size: calc(1rem + 1vw); }
+      .tipos-de-cartas .tipos-de-cartas__div-equipos .tipos-de-cartas__div-texto .tipos-de-cartas__parrafo-equipos {
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900;
+        font-size: calc(0.5rem + 0.8vw); }
+      .tipos-de-cartas .tipos-de-cartas__div-equipos .tipos-de-cartas__img-equipos {
+        max-width: 500px;
+        margin-top: 60px; }
+    .tipos-de-cartas .tipos-de-cartas__div-modificadoras {
+      max-width: 500px;
+      margin-top: 0;
+      padding-bottom: 0;
+      box-sizing: border-box;
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 60% 40%; }
+      .tipos-de-cartas .tipos-de-cartas__div-modificadoras .tipos-de-cartas__div-texto .tipos-de-cartas__subtitulo-modificadoras {
+        font-size: calc(1rem + 1vw); }
+      .tipos-de-cartas .tipos-de-cartas__div-modificadoras .tipos-de-cartas__div-texto .tipos-de-cartas__parrafo-modificadoras {
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900;
+        font-size: calc(0.5rem + 0.8vw); }
+      .tipos-de-cartas .tipos-de-cartas__div-modificadoras .tipos-de-cartas__img-modificadoras {
+        width: 500px;
+        margin-bottom: 30px; }
+  .partido {
+    max-width: 500px;
+    padding: 0; }
+    .partido .partido__div {
+      margin-top: 0; }
+      .partido .partido__div .partido__titulo {
+        font-size: calc(1.3rem + 1vw); }
+      .partido .partido__div .partido__parrafo {
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900;
+        font-size: calc(0.5rem + 0.8vw); }
+  .campeonato {
+    max-width: 500px;
+    display: flex;
+    padding: 0; }
+    .campeonato .campeonato__div {
+      margin: 20px auto;
+      border-bottom: solid 1px #FFD163; }
+      .campeonato .campeonato__div .campeonato__titulo {
+        font-size: calc(1.3rem + 1vw); }
+      .campeonato .campeonato__div .campeonato__parrafo {
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900;
+        font-size: calc(0.5rem + 0.8vw); }
+  .ganador {
+    max-width: 500px;
+    display: flex;
+    padding: 20px 0; }
+    .ganador .ganador__div {
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 0;
+      border-bottom: solid 1px #FFD163; }
+      .ganador .ganador__div .ganador__titulo {
+        font-size: calc(1.3rem + 1vw); }
+      .ganador .ganador__div .ganador__parrafo {
+        font-size: calc(0.5rem + 0.8vw);
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900; }
+  .contenido {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 0; }
+    .contenido .contenido__titulo {
+      font-size: calc(1.3rem + 1vw);
+      margin-top: 30px; }
+    .contenido .contenido__div-total {
+      padding-bottom: 0;
+      margin-bottom: 30px; }
+      .contenido .contenido__div-total .contenido__div-total-subtitulo {
+        font-size: calc(1rem + 1vw); }
+      .contenido .contenido__div-total .contenido__div-total-lista {
+        font-size: calc(0.5rem + 0.8vw);
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900; }
+    .contenido .contenido__subtitulo {
+      font-size: calc(1rem + 1vw); }
+    .contenido .contenido__div-cartas {
+      flex-wrap: wrap;
+      margin-top: 50px;
+      padding-bottom: 0; }
+      .contenido .contenido__div-cartas .contenido__div-modificadoras-subtitulo {
+        font-size: calc(1rem + 1vw);
+        text-align: center; }
+      .contenido .contenido__div-cartas .contenido__div-modificadoras-lista {
+        font-size: calc(0.5rem + 0.8vw);
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900; }
+  /* HISTORIA */
+  .section-creacion {
+    max-width: 500px;
+    padding-top: 20px;
+    margin: auto;
+    padding-bottom: 50px; }
+    .section-creacion .section-creacion__div {
+      max-width: 500px; }
+      .section-creacion .section-creacion__div .section-creacion__titulo {
+        font-size: calc(1.3rem + 1vw); }
+      .section-creacion .section-creacion__div .section-creacion__parrafo {
+        font-size: calc(0.5rem + 0.8vw);
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900; }
+  .section-youtube {
+    max-width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .section-youtube .section-youtube__video {
+      width: 500px;
+      height: 350px; }
+  /* IMAGENES */
+  .galeria__titulo-div {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 50px; }
+    .galeria__titulo-div .galeria__titulo {
+      font-size: calc(1.3rem + 1vw); }
+  .galeria__section {
+    max-width: 500px;
+    margin: auto; }
+    .galeria__section .galeria__div {
+      max-width: 500px;
+      margin: auto;
+      display: flex;
+      flex-direction: wrap;
+      flex-wrap: wrap; }
+      .galeria__section .galeria__div .galeria__item-1 {
+        max-width: 500px; }
+        .galeria__section .galeria__div .galeria__item-1 .galeria__img1 {
+          height: auto;
+          border: solid 1px #ffffff; }
+      .galeria__section .galeria__div .galeria__item-2 {
+        max-width: 500px; }
+        .galeria__section .galeria__div .galeria__item-2 .galeria__img2 {
+          height: auto;
+          border: solid 1px #ffffff; }
+      .galeria__section .galeria__div .galeria__item-3 {
+        max-width: 500px; }
+        .galeria__section .galeria__div .galeria__item-3 .galeria__img3 {
+          height: auto;
+          border: solid 1px #ffffff; }
+      .galeria__section .galeria__div .galeria__item-4 {
+        max-width: 500px; }
+        .galeria__section .galeria__div .galeria__item-4 .galeria__img4 {
+          height: auto;
+          border: solid 1px #ffffff; }
+      .galeria__section .galeria__div .galeria__item-5 {
+        display: none; }
+      .galeria__section .galeria__div .galeria__item-6 {
+        max-width: 500px; }
+        .galeria__section .galeria__div .galeria__item-6 .galeria__img6 {
+          height: auto;
+          border: solid 1px #ffffff; }
+      .galeria__section .galeria__div .galeria__item-7 {
+        max-width: 500px; }
+        .galeria__section .galeria__div .galeria__item-7 .galeria__img7 {
+          height: auto;
+          border: solid 1px #ffffff; }
+      .galeria__section .galeria__div .galeria__item-8 {
+        max-width: 500px; }
+        .galeria__section .galeria__div .galeria__item-8 .galeria__img8 {
+          height: auto;
+          border: solid 1px #ffffff; }
+      .galeria__section .galeria__div .galeria__item-9 {
+        max-width: 500px; }
+        .galeria__section .galeria__div .galeria__item-9 .galeria__img9 {
+          height: auto;
+          border: solid 1px #ffffff; }
+  /* CONTACTO */
+  .section-form {
+    width: 500px;
+    padding-top: 30px;
+    margin: auto; }
+    .section-form .form {
+      width: 100%; }
+      .section-form .form .form__div {
+        width: 100%; }
+        .section-form .form .form__div .form__titulo {
+          font-size: calc(1.3rem + 1vw); }
+        .section-form .form .form__div .form__div-nombre {
+          width: 80%; }
+        .section-form .form .form__div .form__div-email {
+          width: 80%; }
+        .section-form .form .form__div .form__div-asunto {
+          width: 80%; }
+        .section-form .form .form__div .form__div-textarea {
+          width: 80%;
+          font-size: calc(0.5rem + 0.8vw); }
+        .section-form .form .form__div .form__label {
+          font-size: calc(0.5rem + 0.8vw);
+          top: -4vh; }
+        .section-form .form .form__div input, .section-form .form .form__div textarea {
+          font-size: calc(0.5rem + 0.8vw); }
+        .section-form .form .form__div input:focus ~ label, .section-form .form .form__div input:valid ~ label {
+          top: -10vh;
+          font-size: calc(1rem + 1vw); }
+        .section-form .form .form__div textarea:focus ~ label, .section-form .form .form__div textarea:valid ~ label {
+          top: -20vh;
+          font-size: calc(1rem + 1vw); }
+        .section-form .form .form__div .form__button {
+          font-size: calc(1rem + 1vw); } }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .contenedor {
+    max-width: 700px;
+    margin: 0 auto; }
+  /* HEADER */
+  .header {
+    position: static;
+    height: 80px; }
+    .header .header__nav {
+      display: grid;
+      grid-template-columns: 90% 10%; }
+      .header .header__nav .header__div-logo .header__logo {
+        max-width: 200px; }
+      .header .header__nav .header__div-menu {
+        max-width: 100%;
+        position: relative;
+        display: block;
+        margin: auto; }
+        .header .header__nav .header__div-menu .header__boton {
+          background-color: #FFD163;
+          color: white;
+          padding: 10px;
+          font-size: calc(1rem + 1vw);
+          border: none;
+          cursor: pointer; }
+        .header .header__nav .header__div-menu .header__boton:hover {
+          color: #224F99; }
+        .header .header__nav .header__div-menu .header__div-submenu {
+          display: none;
+          position: absolute;
+          left: -230px;
+          background-color: #165C21;
+          min-width: 350px;
+          z-index: 1; }
+          .header .header__nav .header__div-menu .header__div-submenu .header__enlace-submenu {
+            text-decoration: none;
+            display: block;
+            font-family: "Pridi", serif;
+            font-size: calc(0.8rem + 1vw);
+            text-transform: capitalize;
+            color: #FFD163;
+            opacity: 1;
+            margin: auto;
+            padding: auto;
+            text-align: center; }
+          .header .header__nav .header__div-menu .header__div-submenu .header__enlace-submenu:hover {
+            color: #BA3014;
+            background-color: #FFD163; }
+      .header .header__nav .header__div-menu:hover .header__div-submenu {
+        display: block; }
+      .header .header__nav .header__div-barraNav {
+        display: none; }
+  /* FOOTER */
+  .footer .footer__div-enlaces .footer__fulbo .footer__titulo {
+    font-size: calc(1rem + 1vw); }
+  .footer .footer__div-enlaces .footer__fulbo .footer__insta, .footer .footer__div-enlaces .footer__fulbo .footer__email, .footer .footer__div-enlaces .footer__fulbo .footer__face {
+    font-size: calc(0.5rem + 0.8vw); }
+  .footer .footer__div-enlaces .footer__fulbo .footer__icono {
+    font-size: calc(1rem + 0.8vw); }
+  .footer .footer__div-enlaces .footer__creador {
+    grid-area: creador;
+    width: 100%;
+    display: grid;
+    grid-template-rows: max-content;
+    justify-content: center; }
+    .footer .footer__div-enlaces .footer__creador .footer__titulo {
+      font-size: calc(1rem + 1vw); }
+    .footer .footer__div-enlaces .footer__creador .footer__behance {
+      font-size: calc(0.5rem + 0.8vw); }
+    .footer .footer__div-enlaces .footer__creador .footer__icono {
+      font-size: calc(1rem + 0.8vw); }
+  .footer .footer__div-enlaces .footer__diseño .footer__titulo {
+    font-size: calc(0.5rem + 0.8vw); }
+  /* INDEX */
+  .main-video {
+    margin: -100px auto 10px auto; }
+    .main-video .main-video__video {
+      margin: auto;
+      max-width: 100%; }
+  .introduccion {
+    max-width: 700px;
+    margin-top: -30px; }
+    .introduccion .introduccion__div .introduccion__titulo {
+      font-size: calc(1.3rem + 1vw); }
+    .introduccion .introduccion__div .introduccion__parrafo {
+      line-height: 200%;
+      text-shadow: 1px 1px black;
+      font-weight: 900;
+      font-size: calc(0.5rem + 0.8vw); }
+  /* CONTENIDO Y REGLAS */
+  .sinopsis {
+    width: 700px;
+    margin-top: 0;
+    display: flex;
+    padding: 10px 0; }
+    .sinopsis .sinopsis__div {
+      margin-top: 30px;
+      border-bottom: solid 1px #FFD163;
+      padding-bottom: 20px; }
+      .sinopsis .sinopsis__div .sinopsis__titulo {
+        font-size: calc(1.3rem + 1vw); }
+      .sinopsis .sinopsis__div .sinopsis__parrafo {
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900;
+        font-size: calc(0.5rem + 0.8vw); }
+  .comienzo {
+    max-width: 700px;
+    padding: 10px 0; }
+    .comienzo .comienzo__div {
+      margin-top: 10px;
+      padding-bottom: 20px;
+      border-bottom: solid 1px #FFD163; }
+      .comienzo .comienzo__div .comienzo__titulo {
+        font-size: calc(1.3rem + 1vw); }
+      .comienzo .comienzo__div .comienzo__parrafo {
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900;
+        font-size: calc(0.5rem + 0.8vw); }
+  .tipos-de-cartas {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; }
+    .tipos-de-cartas .tipos-de-cartas__titulo {
+      padding-top: 20px;
+      font-size: calc(1.3rem + 1vw); }
+    .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts {
+      max-width: 100%;
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 30% 70%;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+      .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__div-texto {
+        display: block; }
+        .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__div-texto .tipos-de-cartas__subtitulo-jugadores {
+          margin: 10px auto;
+          font-size: calc(1rem + 1vw); }
+        .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__div-texto .tipos-de-cartas__parrafo-jugadores {
+          width: 100%;
+          line-height: 200%;
+          text-shadow: 1px 1px black;
+          font-weight: 900;
+          font-size: calc(0.5rem + 0.8vw); }
+      .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__img-jug-y-dts {
+        margin-top: -20px;
+        max-width: 700px; }
+    .tipos-de-cartas .tipos-de-cartas__span {
+      width: 80%;
+      margin: 20px auto;
+      padding: 0; }
+    .tipos-de-cartas .tipos-de-cartas__div-equipos {
+      max-width: 700px;
+      margin: auto; }
+      .tipos-de-cartas .tipos-de-cartas__div-equipos .tipos-de-cartas__div-texto .tipos-de-cartas__subtitulo-equipos {
+        font-size: calc(1rem + 1vw); }
+      .tipos-de-cartas .tipos-de-cartas__div-equipos .tipos-de-cartas__div-texto .tipos-de-cartas__parrafo-equipos {
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900;
+        font-size: calc(0.5rem + 0.8vw); }
+      .tipos-de-cartas .tipos-de-cartas__div-equipos .tipos-de-cartas__img-equipos {
+        max-width: 700px;
+        margin-top: 60px; }
+    .tipos-de-cartas .tipos-de-cartas__div-modificadoras {
+      max-width: 700px;
+      margin-top: 0;
+      padding-bottom: 0;
+      box-sizing: border-box;
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 60% 40%; }
+      .tipos-de-cartas .tipos-de-cartas__div-modificadoras .tipos-de-cartas__div-texto .tipos-de-cartas__subtitulo-modificadoras {
+        font-size: calc(1rem + 1vw); }
+      .tipos-de-cartas .tipos-de-cartas__div-modificadoras .tipos-de-cartas__div-texto .tipos-de-cartas__parrafo-modificadoras {
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900;
+        font-size: calc(0.5rem + 0.8vw); }
+      .tipos-de-cartas .tipos-de-cartas__div-modificadoras .tipos-de-cartas__img-modificadoras {
+        width: 700px;
+        margin-bottom: 30px; }
+  .partido {
+    max-width: 700px;
+    padding: 0; }
+    .partido .partido__div {
+      margin-top: 0; }
+      .partido .partido__div .partido__titulo {
+        font-size: calc(1.3rem + 1vw); }
+      .partido .partido__div .partido__parrafo {
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900;
+        font-size: calc(0.5rem + 0.8vw); }
+  .campeonato {
+    max-width: 700px;
+    display: flex;
+    padding: 0; }
+    .campeonato .campeonato__div {
+      margin: 20px auto;
+      border-bottom: solid 1px #FFD163; }
+      .campeonato .campeonato__div .campeonato__titulo {
+        font-size: calc(1.3rem + 1vw); }
+      .campeonato .campeonato__div .campeonato__parrafo {
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900;
+        font-size: calc(0.5rem + 0.8vw); }
+  .ganador {
+    max-width: 700px;
+    display: flex;
+    padding: 20px 0; }
+    .ganador .ganador__div {
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 0;
+      border-bottom: solid 1px #FFD163; }
+      .ganador .ganador__div .ganador__titulo {
+        font-size: calc(1.3rem + 1vw); }
+      .ganador .ganador__div .ganador__parrafo {
+        font-size: calc(0.5rem + 0.8vw);
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900; }
+  .contenido {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 0; }
+    .contenido .contenido__titulo {
+      font-size: calc(1.3rem + 1vw);
+      margin-top: 30px; }
+    .contenido .contenido__div-total {
+      padding-bottom: 0;
+      margin-bottom: 30px; }
+      .contenido .contenido__div-total .contenido__div-total-subtitulo {
+        font-size: calc(1rem + 1vw); }
+      .contenido .contenido__div-total .contenido__div-total-lista {
+        font-size: calc(0.5rem + 0.8vw);
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900; }
+    .contenido .contenido__subtitulo {
+      font-size: calc(1rem + 1vw); }
+    .contenido .contenido__div-cartas {
+      flex-wrap: wrap;
+      margin-top: 50px;
+      padding-bottom: 0; }
+      .contenido .contenido__div-cartas .contenido__div-modificadoras-subtitulo {
+        font-size: calc(1rem + 1vw);
+        text-align: center; }
+      .contenido .contenido__div-cartas .contenido__div-modificadoras-lista {
+        font-size: calc(0.5rem + 0.8vw);
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900; }
+  /* HISTORIA */
+  .section-creacion {
+    max-width: 700px;
+    padding-top: 20px;
+    margin: auto;
+    padding-bottom: 50px; }
+    .section-creacion .section-creacion__div {
+      max-width: 700px; }
+      .section-creacion .section-creacion__div .section-creacion__titulo {
+        font-size: calc(1.3rem + 1vw); }
+      .section-creacion .section-creacion__div .section-creacion__parrafo {
+        font-size: calc(0.5rem + 0.8vw);
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900; }
+  .section-youtube {
+    max-width: 700px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .section-youtube .section-youtube__video {
+      width: 700px;
+      height: 550px; }
+  /* IMAGENES */
+  .galeria__titulo-div {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 50px; }
+    .galeria__titulo-div .galeria__titulo {
+      font-size: calc(1.3rem + 1vw); }
+  .galeria__section {
+    max-width: 700px;
+    margin: auto; }
+    .galeria__section .galeria__div {
+      max-width: 700px;
+      margin: auto;
+      display: flex;
+      flex-direction: wrap;
+      flex-wrap: wrap; }
+      .galeria__section .galeria__div .galeria__item-1 {
+        max-width: 100%; }
+        .galeria__section .galeria__div .galeria__item-1 .galeria__img1 {
+          height: auto;
+          border: solid 1px #ffffff; }
+      .galeria__section .galeria__div .galeria__item-2 {
+        max-width: 100%; }
+        .galeria__section .galeria__div .galeria__item-2 .galeria__img2 {
+          height: auto;
+          border: solid 1px #ffffff; }
+      .galeria__section .galeria__div .galeria__item-3 {
+        max-width: 100%; }
+        .galeria__section .galeria__div .galeria__item-3 .galeria__img3 {
+          height: auto;
+          border: solid 1px #ffffff; }
+      .galeria__section .galeria__div .galeria__item-4 {
+        max-width: 100%; }
+        .galeria__section .galeria__div .galeria__item-4 .galeria__img4 {
+          height: auto;
+          border: solid 1px #ffffff; }
+      .galeria__section .galeria__div .galeria__item-5 {
+        display: none; }
+      .galeria__section .galeria__div .galeria__item-6 {
+        max-width: 100%; }
+        .galeria__section .galeria__div .galeria__item-6 .galeria__img6 {
+          height: auto;
+          border: solid 1px #ffffff; }
+      .galeria__section .galeria__div .galeria__item-7 {
+        max-width: 100%; }
+        .galeria__section .galeria__div .galeria__item-7 .galeria__img7 {
+          height: auto;
+          border: solid 1px #ffffff; }
+      .galeria__section .galeria__div .galeria__item-8 {
+        max-width: 100%; }
+        .galeria__section .galeria__div .galeria__item-8 .galeria__img8 {
+          height: auto;
+          border: solid 1px #ffffff; }
+      .galeria__section .galeria__div .galeria__item-9 {
+        max-width: 100%; }
+        .galeria__section .galeria__div .galeria__item-9 .galeria__img9 {
+          height: auto;
+          border: solid 1px #ffffff; }
+  /* CONTACTO */
+  .section-form {
+    width: 700px;
+    padding-top: 30px;
+    margin: auto; }
+    .section-form .form {
+      width: 100%; }
+      .section-form .form .form__div {
+        width: 100%; }
+        .section-form .form .form__div .form__titulo {
+          font-size: calc(1.3rem + 1vw); }
+        .section-form .form .form__div .form__div-nombre {
+          width: 80%; }
+        .section-form .form .form__div .form__div-email {
+          width: 80%; }
+        .section-form .form .form__div .form__div-asunto {
+          width: 80%; }
+        .section-form .form .form__div .form__div-textarea {
+          width: 80%;
+          font-size: calc(0.5rem + 0.8vw); }
+        .section-form .form .form__div .form__label {
+          font-size: calc(0.5rem + 0.8vw);
+          top: -4vh; }
+        .section-form .form .form__div input, .section-form .form .form__div textarea {
+          font-size: calc(0.5rem + 0.8vw); }
+        .section-form .form .form__div input:focus ~ label, .section-form .form .form__div input:valid ~ label {
+          top: -10vh;
+          font-size: calc(1rem + 1vw); }
+        .section-form .form .form__div textarea:focus ~ label, .section-form .form .form__div textarea:valid ~ label {
+          top: -20vh;
+          font-size: calc(1rem + 1vw); }
+        .section-form .form .form__div .form__button {
+          font-size: calc(1rem + 1vw); } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .contenedor {
+    max-width: 900px;
+    margin: 0 auto; }
+  /* HEADER */
+  .header {
+    position: static;
+    height: 100px; }
+    .header .header__nav {
+      display: grid;
+      grid-template-columns: 90% 10%; }
+      .header .header__nav .header__div-logo .header__logo {
+        max-width: 300px; }
+      .header .header__nav .header__div-menu {
+        max-width: 100%;
+        position: relative;
+        display: block;
+        margin: auto; }
+        .header .header__nav .header__div-menu .header__boton {
+          background-color: #FFD163;
+          color: white;
+          padding: 10px;
+          font-size: calc(1rem + 1vw);
+          border: none;
+          cursor: pointer; }
+        .header .header__nav .header__div-menu .header__boton:hover {
+          color: #224F99; }
+        .header .header__nav .header__div-menu .header__div-submenu {
+          display: none;
+          position: absolute;
+          left: -200px;
+          background-color: #165C21;
+          min-width: 350px;
+          z-index: 1; }
+          .header .header__nav .header__div-menu .header__div-submenu .header__enlace-submenu {
+            text-decoration: none;
+            display: block;
+            font-family: "Pridi", serif;
+            font-size: calc(0.8rem + 1vw);
+            text-transform: capitalize;
+            color: #FFD163;
+            opacity: 1;
+            margin: auto;
+            padding: auto;
+            text-align: center; }
+          .header .header__nav .header__div-menu .header__div-submenu .header__enlace-submenu:hover {
+            color: #BA3014;
+            background-color: #FFD163; }
+      .header .header__nav .header__div-menu:hover .header__div-submenu {
+        display: block; }
+      .header .header__nav .header__div-barraNav {
+        display: none; }
+  /* FOOTER */
+  .footer .footer__div-enlaces .footer__fulbo .footer__titulo {
+    font-size: calc(1rem + 1vw); }
+  .footer .footer__div-enlaces .footer__fulbo .footer__insta, .footer .footer__div-enlaces .footer__fulbo .footer__email, .footer .footer__div-enlaces .footer__fulbo .footer__face {
+    font-size: calc(0.5rem + 0.8vw); }
+  .footer .footer__div-enlaces .footer__fulbo .footer__icono {
+    font-size: calc(1rem + 0.8vw); }
+  .footer .footer__div-enlaces .footer__creador {
+    grid-area: creador;
+    width: 100%;
+    display: grid;
+    grid-template-rows: max-content;
+    justify-content: center; }
+    .footer .footer__div-enlaces .footer__creador .footer__titulo {
+      font-size: calc(1rem + 1vw); }
+    .footer .footer__div-enlaces .footer__creador .footer__behance {
+      font-size: calc(0.5rem + 0.8vw); }
+    .footer .footer__div-enlaces .footer__creador .footer__icono {
+      font-size: calc(1rem + 0.8vw); }
+  .footer .footer__div-enlaces .footer__diseño .footer__titulo {
+    font-size: calc(0.5rem + 0.8vw); }
+  /* INDEX */
+  .main-video {
+    margin: -100px auto 10px auto; }
+    .main-video .main-video__video {
+      margin: auto;
+      max-width: 100%; }
+  .introduccion {
+    max-width: 900px;
+    margin-top: -30px; }
+    .introduccion .introduccion__div .introduccion__titulo {
+      font-size: calc(1.3rem + 1vw); }
+    .introduccion .introduccion__div .introduccion__parrafo {
+      line-height: 200%;
+      text-shadow: 1px 1px black;
+      font-weight: 900;
+      font-size: calc(0.5rem + 0.8vw); }
+  /* CONTENIDO Y REGLAS */
+  .sinopsis {
+    width: 900px;
+    margin-top: 0;
+    display: flex;
+    padding: 10px 0; }
+    .sinopsis .sinopsis__div {
+      margin-top: 30px;
+      border-bottom: solid 1px #FFD163;
+      padding-bottom: 20px; }
+      .sinopsis .sinopsis__div .sinopsis__titulo {
+        font-size: calc(1.3rem + 1vw); }
+      .sinopsis .sinopsis__div .sinopsis__parrafo {
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900;
+        font-size: calc(0.5rem + 0.8vw); }
+  .comienzo {
+    max-width: 900px;
+    padding: 10px 0; }
+    .comienzo .comienzo__div {
+      margin-top: 10px;
+      padding-bottom: 20px;
+      border-bottom: solid 1px #FFD163; }
+      .comienzo .comienzo__div .comienzo__titulo {
+        font-size: calc(1.3rem + 1vw); }
+      .comienzo .comienzo__div .comienzo__parrafo {
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900;
+        font-size: calc(0.5rem + 0.8vw); }
+  .tipos-de-cartas {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; }
+    .tipos-de-cartas .tipos-de-cartas__titulo {
+      padding-top: 20px;
+      font-size: calc(1.3rem + 1vw); }
+    .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts {
+      max-width: 100%;
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 30% 70%;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+      .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__div-texto {
+        display: block; }
+        .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__div-texto .tipos-de-cartas__subtitulo-jugadores {
+          margin: 10px auto;
+          font-size: calc(1rem + 1vw); }
+        .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__div-texto .tipos-de-cartas__parrafo-jugadores {
+          width: 100%;
+          line-height: 200%;
+          text-shadow: 1px 1px black;
+          font-weight: 900;
+          font-size: calc(0.5rem + 0.8vw); }
+      .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__img-jug-y-dts {
+        margin-top: -20px;
+        max-width: 900px; }
+    .tipos-de-cartas .tipos-de-cartas__span {
+      width: 80%;
+      margin: 20px auto;
+      padding: 0; }
+    .tipos-de-cartas .tipos-de-cartas__div-equipos {
+      max-width: 900px;
+      margin: auto; }
+      .tipos-de-cartas .tipos-de-cartas__div-equipos .tipos-de-cartas__div-texto .tipos-de-cartas__subtitulo-equipos {
+        font-size: calc(1rem + 1vw); }
+      .tipos-de-cartas .tipos-de-cartas__div-equipos .tipos-de-cartas__div-texto .tipos-de-cartas__parrafo-equipos {
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900;
+        font-size: calc(0.5rem + 0.8vw); }
+      .tipos-de-cartas .tipos-de-cartas__div-equipos .tipos-de-cartas__img-equipos {
+        max-width: 900px;
+        margin-top: 60px; }
+    .tipos-de-cartas .tipos-de-cartas__div-modificadoras {
+      max-width: 900px;
+      margin-top: 0;
+      padding-bottom: 0;
+      box-sizing: border-box;
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 60% 40%; }
+      .tipos-de-cartas .tipos-de-cartas__div-modificadoras .tipos-de-cartas__div-texto .tipos-de-cartas__subtitulo-modificadoras {
+        font-size: calc(1rem + 1vw); }
+      .tipos-de-cartas .tipos-de-cartas__div-modificadoras .tipos-de-cartas__div-texto .tipos-de-cartas__parrafo-modificadoras {
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900;
+        font-size: calc(0.5rem + 0.8vw); }
+      .tipos-de-cartas .tipos-de-cartas__div-modificadoras .tipos-de-cartas__img-modificadoras {
+        width: 900px;
+        margin-bottom: 30px; }
+  .partido {
+    max-width: 900px;
+    padding: 0; }
+    .partido .partido__div {
+      margin-top: 0; }
+      .partido .partido__div .partido__titulo {
+        font-size: calc(1.3rem + 1vw); }
+      .partido .partido__div .partido__parrafo {
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900;
+        font-size: calc(0.5rem + 0.8vw); }
+  .campeonato {
+    max-width: 900px;
+    display: flex;
+    padding: 0; }
+    .campeonato .campeonato__div {
+      margin: 20px auto;
+      border-bottom: solid 1px #FFD163; }
+      .campeonato .campeonato__div .campeonato__titulo {
+        font-size: calc(1.3rem + 1vw); }
+      .campeonato .campeonato__div .campeonato__parrafo {
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900;
+        font-size: calc(0.5rem + 0.8vw); }
+  .ganador {
+    max-width: 900px;
+    display: flex;
+    padding: 20px 0; }
+    .ganador .ganador__div {
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 0;
+      border-bottom: solid 1px #FFD163; }
+      .ganador .ganador__div .ganador__titulo {
+        font-size: calc(1.3rem + 1vw); }
+      .ganador .ganador__div .ganador__parrafo {
+        font-size: calc(0.5rem + 0.8vw);
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900; }
+  .contenido {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    padding: 0; }
+    .contenido .contenido__titulo {
+      font-size: calc(1.3rem + 1vw);
+      margin-top: 30px; }
+    .contenido .contenido__div-total {
+      padding-bottom: 0;
+      margin-bottom: 30px; }
+      .contenido .contenido__div-total .contenido__div-total-subtitulo {
+        font-size: calc(1rem + 1vw); }
+      .contenido .contenido__div-total .contenido__div-total-lista {
+        font-size: calc(0.5rem + 0.8vw);
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900; }
+    .contenido .contenido__subtitulo {
+      font-size: calc(1rem + 1vw); }
+    .contenido .contenido__div-cartas {
+      flex-wrap: wrap;
+      margin-top: 50px;
+      padding-bottom: 0; }
+      .contenido .contenido__div-cartas .contenido__div-modificadoras-subtitulo {
+        font-size: calc(1rem + 1vw);
+        text-align: center; }
+      .contenido .contenido__div-cartas .contenido__div-modificadoras-lista {
+        font-size: calc(0.5rem + 0.8vw);
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900; }
+  /* HISTORIA */
+  .section-creacion {
+    max-width: 900px;
+    padding-top: 20px;
+    margin: auto;
+    padding-bottom: 50px; }
+    .section-creacion .section-creacion__div {
+      max-width: 900px; }
+      .section-creacion .section-creacion__div .section-creacion__titulo {
+        font-size: calc(1.3rem + 1vw); }
+      .section-creacion .section-creacion__div .section-creacion__parrafo {
+        font-size: calc(0.5rem + 0.8vw);
+        line-height: 200%;
+        text-shadow: 1px 1px black;
+        font-weight: 900; }
+  .section-youtube {
+    max-width: 900px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .section-youtube .section-youtube__video {
+      width: 900px;
+      height: 750px; }
+  /* IMAGENES */
+  .galeria__titulo-div {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 50px; }
+    .galeria__titulo-div .galeria__titulo {
+      font-size: calc(1.3rem + 1vw); }
+  .galeria__section {
+    max-width: 900px;
+    margin: auto; }
+    .galeria__section .galeria__div {
+      max-width: 900px;
+      margin: auto;
+      display: flex;
+      flex-direction: wrap;
+      flex-wrap: wrap; }
+      .galeria__section .galeria__div .galeria__item-1 {
+        max-width: 440px; }
+        .galeria__section .galeria__div .galeria__item-1 .galeria__img1 {
+          height: auto; }
+      .galeria__section .galeria__div .galeria__item-2 {
+        max-width: 440px; }
+        .galeria__section .galeria__div .galeria__item-2 .galeria__img2 {
+          height: auto; }
+      .galeria__section .galeria__div .galeria__item-3 {
+        max-width: 440px; }
+        .galeria__section .galeria__div .galeria__item-3 .galeria__img3 {
+          height: auto; }
+      .galeria__section .galeria__div .galeria__item-4 {
+        max-width: 440px; }
+        .galeria__section .galeria__div .galeria__item-4 .galeria__img4 {
+          height: auto; }
+      .galeria__section .galeria__div .galeria__item-5 {
+        max-width: 440px;
+        display: none; }
+      .galeria__section .galeria__div .galeria__item-6 {
+        max-width: 440px; }
+        .galeria__section .galeria__div .galeria__item-6 .galeria__img6 {
+          height: auto; }
+      .galeria__section .galeria__div .galeria__item-7 {
+        max-width: 440px; }
+        .galeria__section .galeria__div .galeria__item-7 .galeria__img7 {
+          height: auto; }
+      .galeria__section .galeria__div .galeria__item-8 {
+        max-width: 440px; }
+        .galeria__section .galeria__div .galeria__item-8 .galeria__img8 {
+          height: auto; }
+      .galeria__section .galeria__div .galeria__item-9 {
+        max-width: 440px; }
+        .galeria__section .galeria__div .galeria__item-9 .galeria__img9 {
+          height: auto; }
+  /* CONTACTO */
+  .section-form {
+    width: 900px;
+    padding-top: 30px;
+    margin: auto; }
+    .section-form .form {
+      width: 100%; }
+      .section-form .form .form__div {
+        width: 100%; }
+        .section-form .form .form__div .form__titulo {
+          font-size: calc(1.3rem + 1vw); }
+        .section-form .form .form__div .form__div-nombre {
+          width: 80%; }
+        .section-form .form .form__div .form__div-email {
+          width: 80%; }
+        .section-form .form .form__div .form__div-asunto {
+          width: 80%; }
+        .section-form .form .form__div .form__div-textarea {
+          width: 80%;
+          font-size: calc(0.5rem + 0.8vw); }
+        .section-form .form .form__div .form__label {
+          font-size: calc(0.5rem + 0.8vw);
+          top: -4vh; }
+        .section-form .form .form__div input, .section-form .form .form__div textarea {
+          font-size: calc(0.5rem + 0.8vw); }
+        .section-form .form .form__div input:focus ~ label, .section-form .form .form__div input:valid ~ label {
+          top: -10vh;
+          font-size: calc(1rem + 1vw); }
+        .section-form .form .form__div textarea:focus ~ label, .section-form .form .form__div textarea:valid ~ label {
+          top: -20vh;
+          font-size: calc(1rem + 1vw); }
+        .section-form .form .form__div .form__button {
+          font-size: calc(1rem + 1vw); } }

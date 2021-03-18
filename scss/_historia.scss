@@ -9,19 +9,21 @@
         flex-direction: column;
         .section-creacion__titulo {
             font-family: $fuente-titulo;
-            font-size: 22pt;
+            font-size: $tamaño-titulo;
             color: $amarillo;  
             margin: 0; 
-            text-align: center;            
+            text-align: center;   
+            text-shadow: 2px 2px black;             
         }
         .section-creacion__parrafo {
             max-width: 100%;
             font-family: $fuente-parrafo;
             color: $white;                
             line-height: 150%;
-            font-size: 16pt;
+            font-size: $tamaño-parrafo;
             justify-self: center;    
-            text-align: justify;             
+            text-align: justify;   
+            text-shadow: 2px 2px black;              
         }
     }
 }
@@ -38,3 +40,4 @@
         box-shadow: rgba(0, 0, 0, 0.507) 10px 10px ;
     }
 }
+

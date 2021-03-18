@@ -19,7 +19,7 @@
         justify-content: center;
         .introduccion__titulo {
             font-family: $fuente-titulo;
-            font-size: calc(2rem + 1vw);
+            font-size: calc(1.5rem + 1vw);
             color: $amarillo;  
             margin: auto; 
             text-shadow: 2px 2px black;            
@@ -29,7 +29,7 @@
             font-family: $fuente-parrafo;
             color: $white;                
             line-height: 150%;
-            font-size: calc(1rem + 0.5vw);
+            font-size: calc(0.3rem + 0.8vw);
             justify-self: center;    
             text-align: justify; 
             text-shadow: 2px 2px black;  

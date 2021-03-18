@@ -14,7 +14,7 @@
         padding-bottom: 50px;
         .sinopsis__titulo {
             font-family: $fuente-titulo;
-            font-size: calc(1rem + 1vw);
+            font-size: $tamaño-titulo;
             color: $amarillo;  
             margin: auto; 
             text-shadow: 2px 2px black;            
@@ -24,7 +24,7 @@
             font-family: $fuente-parrafo;
             color: $white;                
             line-height: 150%;
-            font-size: calc(0.3rem + 0.8vw);
+            font-size: $tamaño-parrafo;
             justify-self: center;    
             text-align: justify; 
             text-shadow: 2px 2px black;             
@@ -45,7 +45,7 @@
         border-bottom: solid 1px $amarillo;                
         .comienzo__titulo {
             font-family: $fuente-titulo;
-            font-size: calc(1rem + 1vw);
+            font-size: $tamaño-titulo;
             color: $amarillo;  
             margin: auto; 
             text-shadow: 2px 2px black;            
@@ -55,7 +55,7 @@
             font-family: $fuente-parrafo;
             color: $white;                
             line-height: 150%;
-            font-size: calc(0.3rem + 0.8vw);
+            font-size: $tamaño-parrafo;
             justify-self: center;    
             text-align: justify; 
             text-shadow: 2px 2px black;  
@@ -70,7 +70,7 @@
     flex-direction: column;   
     .tipos-de-cartas__titulo {
         font-family: $fuente-titulo;
-        font-size: calc(1.3rem + 1vw);
+        font-size: $tamaño-titulo;
         color: $amarillo;  
         margin: auto; 
         text-shadow: 2px 2px black;         
@@ -86,9 +86,9 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            .tipos-de-cartas__titulo-jugadores {
+            .tipos-de-cartas__subtitulo-jugadores {
                 font-family: $fuente-titulo;
-                font-size: 22pt;
+                font-size: $tamaño-subtitulo;
                 color: $amarillo;  
                 margin: 0; 
                 text-shadow: 2px 2px black;
@@ -98,7 +98,7 @@
                 font-family: $fuente-parrafo;
                 color: $white;                
                 line-height: 150%;
-                font-size: 16pt;
+                font-size: $tamaño-parrafo;
                 justify-self: center;    
                 text-align: justify;
                 text-shadow: 2px 2px black;
@@ -128,9 +128,9 @@
         .tipos-de-cartas__div-texto {
             display: flex;
             flex-direction: column;            
-            .tipos-de-cartas__titulo-equipos {
+            .tipos-de-cartas__subtitulo-equipos {
                 font-family: $fuente-titulo;
-                font-size: 22pt;
+                font-size: $tamaño-subtitulo;
                 color: $amarillo;  
                 margin: 0; 
                 text-align: center;
@@ -141,7 +141,7 @@
                 font-family: $fuente-parrafo;
                 color: $white;                
                 line-height: 150%;
-                font-size: 16pt;
+                font-size: $tamaño-parrafo;
                 justify-self: center;    
                 text-align: justify; 
                 text-shadow: 2px 2px black;
@@ -158,15 +158,16 @@
         grid-template-columns: 100%;
         grid-template-rows: 40% 60%;
         margin-bottom: 50px;
+        margin-top: 50px;
         border-bottom: solid 1px $amarillo;     
         padding-bottom: 50px;  
         .tipos-de-cartas__div-texto {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            .tipos-de-cartas__titulo-modificadoras {
+            .tipos-de-cartas__subtitulo-modificadoras {
                 font-family: $fuente-titulo;
-                font-size: 22pt;
+                font-size: $tamaño-subtitulo;
                 color: $amarillo;  
                 margin: 0; 
                 text-align: center;
@@ -177,13 +178,13 @@
                 font-family: $fuente-parrafo;
                 color: $white;                
                 line-height: 150%;
-                font-size: 16pt;
+                font-size: $tamaño-parrafo;
                 justify-self: center;    
                 text-align: justify; 
                 text-shadow: 2px 2px black;
             }     
         } 
-        .tipos-de-cartas__img-equipos {
+        .tipos-de-cartas__img-modificadoras {
             max-width: 1200px;                    
         }
     }   
@@ -203,7 +204,7 @@
         padding-bottom: 50px;     
         .partido__titulo {
             font-family: $fuente-titulo;
-            font-size: calc(1.3rem + 1vw);
+            font-size: $tamaño-titulo;
             color: $amarillo;  
             margin: auto; 
             text-shadow: 2px 2px black;            
@@ -213,7 +214,7 @@
             font-family: $fuente-parrafo;
             color: $white;                
             line-height: 150%;
-            font-size: calc(1rem + 0.5vw);
+            font-size: $tamaño-parrafo;
             justify-self: center;    
             text-align: justify; 
             text-shadow: 2px 2px black;  
@@ -235,7 +236,7 @@
         padding-bottom: 50px;     
         .campeonato__titulo {
             font-family: $fuente-titulo;
-            font-size: calc(1.3rem + 1vw);
+            font-size: $tamaño-titulo;
             color: $amarillo;  
             margin: auto; 
             text-shadow: 2px 2px black;            
@@ -245,7 +246,7 @@
             font-family: $fuente-parrafo;
             color: $white;                
             line-height: 150%;
-            font-size: calc(1rem + 0.5vw);
+            font-size: $tamaño-parrafo;
             justify-self: center;    
             text-align: justify; 
             text-shadow: 2px 2px black;  
@@ -266,7 +267,7 @@
         padding-bottom: 50px;     
         .ganador__titulo {
             font-family: $fuente-titulo;
-            font-size: calc(1.3rem + 1vw);
+            font-size: $tamaño-titulo;
             color: $amarillo;  
             margin: auto; 
             text-shadow: 2px 2px black;            
@@ -276,7 +277,7 @@
             font-family: $fuente-parrafo;
             color: $white;                
             line-height: 150%;
-            font-size: calc(1rem + 0.5vw);
+            font-size: $tamaño-parrafo;
             justify-self: center;    
             text-align: justify; 
             text-shadow: 2px 2px black;  
@@ -291,7 +292,7 @@
     padding: 30px 0;     
     .contenido__titulo {
         font-family: $fuente-titulo;
-        font-size: calc(1.6rem + 1vw);
+        font-size: $tamaño-titulo;
         color: $amarillo;  
         margin: auto; 
         text-shadow: 2px 2px black; 
@@ -304,7 +305,7 @@
         padding-bottom: 15px;     
         .contenido__div-total-subtitulo {
             font-family: $fuente-titulo;
-            font-size: calc(0.8rem + 1vw);
+            font-size: $tamaño-subtitulo;
             color: $amarillo;              
             text-shadow: 2px 2px black;            
         }
@@ -313,7 +314,7 @@
             font-family: $fuente-parrafo;
             color: $white;                
             line-height: 150%;
-            font-size: calc(0.6rem + 0.5vw);
+            font-size: $tamaño-parrafo;
             justify-self: center;    
             text-align: justify; 
             text-shadow: 2px 2px black;                
@@ -322,7 +323,7 @@
     }
     .contenido__subtitulo {
         font-family: $fuente-titulo;
-        font-size: calc(0.7rem + 1vw);
+        font-size: $tamaño-subtitulo;
         color: $amarillo;  
         margin: auto; 
         text-shadow: 2px 2px black;  
@@ -334,9 +335,9 @@
         justify-content: space-between;
         margin-top: 50px;               
         padding-bottom: 50px;  
-        .contenido__div-modificadoras-titulo {
+        .contenido__div-modificadoras-subtitulo {
             font-family: $fuente-titulo;
-            font-size: calc(0.5rem + 1vw);
+            font-size: $tamaño-subtitulo;
             color: $amarillo;  
             margin: auto; 
             text-shadow: 2px 2px black;  
@@ -346,7 +347,7 @@
             font-family: $fuente-parrafo;
             color: $white;                
             line-height: 150%;
-            font-size: calc(0.6rem + 0.5vw);
+            font-size: $tamaño-parrafo;
             justify-self: center;    
             text-align: justify; 
             text-shadow: 2px 2px black;

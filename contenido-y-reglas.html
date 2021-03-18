@@ -18,7 +18,7 @@
     <header class="header">
         <nav class="header__nav contenedor">
             <div class="header__div-logo">
-                <a class="header__enlace" href="index.html"><img class="header__logo" src="media/logo3.png" alt="fulbo"></a>                    
+                <a class="header__enlace" href="index.html"><img class="header__logo" src="media/logo4.png" alt="fulbo"></a>                    
             </div>
             <div class="header__div-barraNav">
                 <ul class="header__barraNav">
@@ -28,6 +28,16 @@
                     <li><a class="header__linkNav" href="imagenes.html">imagenes</a></li>
                     <li><a class="header__linkNav" href="contacto.html">contacto</a></li>      
                 </ul>
+            </div>
+            <div class="header__div-menu">
+                <button class="header__boton"><i class="fas fa-bars"></i></button>
+                <div class="header__div-submenu">                  
+                  <a class="header__enlace-submenu header__linkNav header__linkNav--LinkActivo" href="index.html">inicio</a>
+                  <a class="header__enlace-submenu header__linkNav" href="contenido-y-reglas.html">contenido y reglas</a>
+                  <a class="header__enlace-submenu header__linkNav" href="historia.html">historia</a>
+                  <a class="header__enlace-submenu header__linkNav" href="imagenes.html">imagenes</a>
+                  <a class="header__enlace-submenu header__linkNav" href="contacto.html">contacto</a>
+                </div>
             </div>
         </nav>    
     </header>        
@@ -78,7 +88,7 @@
         <h2 class="tipos-de-cartas__titulo">Tipos de Cartas</h2>
         <div class="tipos-de-cartas__div-jug-y-dts">            
             <div class="tipos-de-cartas__div-texto">
-                <h3 class="tipos-de-cartas__titulo-jugadores">Jugadores y directores técnicos</h3>
+                <h3 class="tipos-de-cartas__subtitulo-jugadores">Jugadores y directores técnicos</h3>
                 <p class="tipos-de-cartas__parrafo-jugadores">
                     En el mazo encontraremos diferentes jugadores o Directores técnicos que podremos sumar a nuestro equipo, cada equipo puede tener 4 jugadores y un DT, estos pueden sustituirse por otro en el turno del jugador.
                 </p>   
@@ -90,7 +100,7 @@
 
         <div class="tipos-de-cartas__div-equipos">
             <div class="tipos-de-cartas__div-texto">
-                <h3 class="tipos-de-cartas__titulo-equipos">Equipos</h3>
+                <h3 class="tipos-de-cartas__subtitulo-equipos">Equipos</h3>
                 <p class="tipos-de-cartas__parrafo-equipos">
                     En el mazo de equipos tendremos 36 equipos con los cuales enfrentarse, 
                     Cada equipo 4 stats, a los cuales vencer. (Si vencemos la stat tendremos un gol, 
@@ -105,23 +115,28 @@
 
         <div class="tipos-de-cartas__div-modificadoras">
             <div class="tipos-de-cartas__div-texto">
-                <h3 class="tipos-de-cartas__titulo-modificadoras">Modificadoras</h3>
-                <p class="tipos-de-cartas__parrafo-modificadoras ">
+                <h3 class="tipos-de-cartas__subtitulo-modificadoras">Modificadoras</h3>
+                <p class="tipos-de-cartas__parrafo-modificadoras">
                     Equipo: Cartas que son aplicable y modifican las stats del equipo, quedan afectando 
                     al equipo hasta que se quitan (mediante una carta especial) Se pueden utilizar en 
                     cualquier momento del juego excepto durante un partido. y se pueden aplicar a nuestro 
                     equipo o a un equipo rival.
-                    <br>
+                </p>
+                <p class="tipos-de-cartas__parrafo-modificadoras"> 
                     En Partido: Cartas que modifican el estado de un partido, Solo pueden ser jugadas 
-                    durante el partido, y se pueden aplicar a nuestro equipo, a un equipo contrario o a un oponente. <br>
-                    <br>
+                    durante el partido, y se pueden aplicar a nuestro equipo, a un equipo contrario o a un oponente.
+                </p>    
+                <p class="tipos-de-cartas__parrafo-modificadoras">
                     Jugador: Cartas que modifican el estado de un jugador, pueden ser positivas o negativas, 
-                    son permanentes y quedan ligadas al jugador hasta que lo reemplaces.  <br>
-                    <br>
-                    Cada jugador puede tener simultáneamente dos cartas aplicadas. <br>
+                    son permanentes y quedan ligadas al jugador hasta que lo reemplaces.
+                </p>    
+                <p class="tipos-de-cartas__parrafo-modificadoras">
+                    Cada jugador puede tener simultáneamente dos cartas aplicadas.
+                </p>    
+                <p class="tipos-de-cartas__parrafo-modificadoras">
                     Especiales: Cartas que modifican, generan o frenan situaciones puntuales del juego. 
                     Depende cada carta se puede jugar antes, después o durante los partidos. 
-                </p>
+                </p>                
             </div>            
             <img class="tipos-de-cartas__img-modificadoras" src="media/modificadoras.png" alt="Imagen Modificadoras">            
         </div>
@@ -193,7 +208,7 @@
         <h3 class="contenido__subtitulo">Cartas de Modificacion</h3>
         <div class="contenido__div-cartas">
             <div class="contenido__div-modificadoras">
-                <h4 class="contenido__div-modificadoras-titulo">Jugador</h4>
+                <h4 class="contenido__div-modificadoras-subtitulo">Jugador</h4>
                 <ul class="contenido__div-modificadoras-lista">
                     <li class="contenido__div-modificadoras-lista-item">Trabar con la cabeza x6</li>
                     <li class="contenido__div-modificadoras-lista-item">Tirador de caños x3</li>
@@ -204,7 +219,7 @@
                 </ul>      
             </div>
             <div class="contenido__div-modificadoras">
-                <h4 class="contenido__div-modificadoras-titulo">Especiales</h4>
+                <h4 class="contenido__div-modificadoras-subtitulo">Especiales</h4>
                 <ul class="contenido__div-modificadoras-lista">
                     <li class="contenido__div-modificadoras-lista-item">36 equipos</li>
                     <li class="contenido__div-modificadoras-lista-item">22 jugadores</li>
@@ -213,7 +228,7 @@
                 </ul>      
             </div>
             <div class="contenido__div-modificadoras">
-                <h4 class="contenido__div-modificadoras-titulo">Equipo</h4>
+                <h4 class="contenido__div-modificadoras-subtitulo">Equipo</h4>
                 <ul class="contenido__div-modificadoras-lista">
                     <li class="contenido__div-modificadoras-lista-item">36 equipos</li>
                     <li class="contenido__div-modificadoras-lista-item">22 jugadores</li>
@@ -222,7 +237,7 @@
                 </ul>      
             </div>
             <div class="contenido__div-modificadoras">
-                <h4 class="contenido__div-modificadoras-titulo">En Partido</h4>
+                <h4 class="contenido__div-modificadoras-subtitulo">En Partido</h4>
                 <ul class="contenido__div-modificadoras-lista">
                     <li class="contenido__div-modificadoras-lista-item">36 equipos</li>
                     <li class="contenido__div-modificadoras-lista-item">22 jugadores</li>

@@ -6,7 +6,7 @@
 @import 'historia';
 @import 'imagenes';
 @import 'contacto';
-@import 'queries';
+
 
 /* VARIABLES */ 
 
@@ -14,6 +14,12 @@ $borde-blanco: solid 1px $white;
 
 
 /* GENERAL */ 
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 a {
     text-decoration: none;
@@ -53,10 +59,7 @@ body {
         flex-direction: row;
 
         .header__div-logo {
-            max-width: 30%; 
-            max-height: 70px; 
-            display: flex; 
-            flex-direction: row; 
+            max-width: 30%;              
             animation-name: fulbo; 
             -webkit-animation-name: fulbo; 
             -webkit-animation-duration: 1.5s; 
@@ -90,7 +93,12 @@ body {
             .header__logo {
                 max-width: 320px;
             }
-        }    
+        } 
+        
+        .header__div-menu {
+            display: none;
+        }
+        
         .header__div-barraNav {
             margin: auto; 
             width: 70%; 
@@ -123,6 +131,7 @@ body {
                     font-size: 200%; 
                     font-weight: 400;
                 }
+                
             }
         }        
     }
@@ -152,18 +161,18 @@ body {
             padding-left: 20px;
             .footer__titulo {
                 font-family: $fuente-titulo;
-                font-size: 18pt;
+                font-size: calc(0.5rem + 1vw);
                 border-bottom: $borde-blanco;
                 color: $amarillo;
                 text-align: center;
             }
             .footer__insta, .footer__email, .footer__face {
                 font-family: $fuente-parrafo;
-                font-size: 14pt;
+                font-size: calc(0.3rem + 0.8vw);
                 color: $white;
             }
             .footer__icono {
-                font-size: 16pt;
+                font-size: calc(0.7rem + 0.8vw);
             }
         }
         .footer__creador {
@@ -174,18 +183,18 @@ body {
             justify-content: center;
             .footer__titulo {
                 font-family: $fuente-titulo;
-                font-size: 18pt;
+                font-size: calc(0.5rem + 1vw);
                 border-bottom: $borde-blanco;
                 color: $amarillo;
                 text-align: center;
             }
             .footer__behance {
                 font-family: $fuente-parrafo;
-                font-size: 14pt;
+                font-size: calc(0.3rem + 0.8vw);
                 color: $white;
             }
             .footer__icono {
-                font-size: 16pt;
+                font-size: calc(0.7rem + 0.8vw);
             }
         }
         .footer__diseño {
@@ -193,18 +202,15 @@ body {
             padding-left: 20px; 
             .footer__titulo {
                 font-family: $fuente-titulo;
-                font-size: 18pt;
+                font-size: calc(0.5rem + 1vw);
                 border-bottom: $borde-blanco;
                 color: $amarillo;
                 text-align: center;                
             }
-            .footer__titulo--diseño {
-                font-size: 14pt;
+            .footer__titulo--diseño {                
                 border-bottom: none;
             }
-            .footer__icono {
-                font-size: 16pt;
-            }
+            
         }
     }
 }
@@ -212,6 +218,6 @@ body {
 
 
 
-
+@import 'queries';
 
 
