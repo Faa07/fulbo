@@ -1,5 +1,5 @@
 .section-form {
-    width: 1200px;
+    max-width: 1200px;
     padding-top: 150px;
     margin: auto;    
     .form {
@@ -9,22 +9,21 @@
         margin: auto;
         border-radius: 15px;        
         .form__div {
-            width: 100%;
+            max-width: 100%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             .form__titulo {
                 font-family: $fuente-titulo;
-                font-size: 22pt;
+                font-size: $tamaño-titulo;
                 color: $blue;  
-                margin: 0; 
+                margin: auto; 
                 padding: 30px 0;                
-                text-align: center;
             }
             .form__div-nombre {
                 width: 70%;
-                padding-bottom: 35px;
+                padding-bottom: 35px;                
             }
             .form__div-email {
                 width: 70%;
@@ -38,7 +37,7 @@
                 width: 70%;
                 padding-bottom: 25px;
                 font-family: $fuente-parrafo;
-                font-size: 12pt;
+                font-size: $tamaño-parrafo;
             }
            
             input:focus~.form__barra::before, textarea:focus~.form__barra::before {
@@ -66,8 +65,8 @@
                 font-family: $fuente-parrafo;
                 color: $green;  
                 position: relative;
-                top: -4vh;  
-                left: 1vh;  
+                top: 0;  
+                left: 0;  
                 transition: 0.5s ease all;  
                 pointer-events: none;          
             }
@@ -86,17 +85,13 @@
                 outline: none;
                 color: $light-blue;
             }
-            input:focus~label, input:valid~label {
-                position: relative;
-                top: -7vh;
-                left: 1vh;
+            input:focus~label, input:valid~label {                
+                position: relative;                
                 font-size: 12pt;
                 color: $green;
             }
-            textarea:focus~label, textarea:valid~label {
-                position: relative;
-                top: -16vh;
-                left: 1vh;
+            textarea:focus~label, textarea:valid~label {                
+                position: relative;                
                 font-size: 12pt;
                 color: $green;
             }
@@ -116,8 +111,7 @@
             .form__button:hover {
                 background: $green;
                 transition: 1s;
-            }
-            
+            }            
         }
     }
 }

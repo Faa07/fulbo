@@ -1,33 +1,14 @@
-// // X-Small devices (portrait phones, less than 576px)
-// @media (max-width: 575.98px) { ... }
-
-// // Small devices (landscape phones, less than 768px)
-// @media (max-width: 767.98px) { ... }
-
-// // Medium devices (tablets, less than 992px)
-// @media (max-width: 991.98px) { ... }
-
-// // Large devices (desktops, less than 1200px)
-// @media (max-width: 1199.98px) { ... }
-
-// // X-Large devices (large desktops, less than 1400px)
-// @media (max-width: 1399.98px) { ... }
-
-
-
-
-
-@media (min-width: 768px) and (max-width: 991.98px) {    
- 
+@media (min-width: 576px) and (max-width: 767.98px) {  
+    
 
     .contenedor {
-        max-width: 900px; 
+        max-width: 80%; 
         margin: 0 auto;
     }    
     /* HEADER */    
     .header {    
         position: static; 
-        height: 100px;
+        height: 80px;
     
         .header__nav {           
             display: grid; 
@@ -36,7 +17,7 @@
             .header__div-logo {
                 
                 .header__logo {
-                    max-width: 300px;
+                    max-width: 200px;
                 }
             }    
     
@@ -52,7 +33,9 @@
                     padding: 10px;
                     font-size: $tamaño-titulo;
                     border: none;
-                    cursor: pointer;                             
+                    cursor: pointer;   
+                    position: relative;
+                    z-index: 10;                          
                 }
     
                 .header__boton:hover {
@@ -62,10 +45,10 @@
                 .header__div-submenu {
                     right: 0;
                     display: none;
-                    position: absolute;                                               
+                    position: absolute;                                                
                     background-color: $green;
                     min-width: 350px;                
-                    z-index: 1;
+                    z-index: 10;
     
                     .header__enlace-submenu {                    
                         text-decoration: none;
@@ -77,7 +60,8 @@
                         opacity: 1;
                         margin: auto;
                         padding: auto;                    
-                        text-align: center;                    
+                        text-align: center;  
+                        z-index: 10;                  
                     }
                     .header__enlace-submenu:hover {
                         color: $rojo;
@@ -86,7 +70,8 @@
                 }
             }  
             .header__div-menu:hover .header__div-submenu {
-                display: block;            
+                display: block;   
+                z-index: 10;         
             }
             .header__div-barraNav {
                 display: none;            
@@ -141,12 +126,12 @@
         margin: -100px auto 10px auto;                
         .main-video__video {
             margin: auto;
-            max-width: 100%;   
-            pointer-events: none;                      
+            max-width: 100%;
+            pointer-events: none;                         
         }    
     }
     .introduccion {
-        max-width: 900px;    
+        max-width: 700px;    
         margin-top: -30px;   
     
         .introduccion__div {
@@ -160,14 +145,14 @@
                 text-shadow: 1px 1px black;  
                 font-weight: 900;
                 font-size: $tamaño-parrafo-mobile;
-                padding: 0 20px; 
+                padding: 0 20px;
                 
             }
         }
     }  
     /* CONTENIDO Y REGLAS */
     .sinopsis {
-        width: 900px;
+        width: 700px;
         margin-top: 0;
         display: flex;    
         padding: 10px 0;       
@@ -183,13 +168,13 @@
                 line-height: 200%;            
                 text-shadow: 1px 1px black;
                 font-weight: 900;  
-                font-size: $tamaño-parrafo-mobile; 
-                padding: 0 20px;           
+                font-size: $tamaño-parrafo-mobile;  
+                padding: 0 20px;         
             }
         }
     }  
     .comienzo {
-        max-width: 900px;       
+        max-width: 700px;       
         padding: 10px 0;        
         .comienzo__div {        
             margin-top: 10px;  
@@ -204,12 +189,12 @@
                 text-shadow: 1px 1px black;
                 font-weight: 900;    
                 font-size: $tamaño-parrafo-mobile;
-                padding: 0 20px; 
+                padding: 0 20px;
             }
         }
     } 
     .tipos-de-cartas {
-        max-width: 900px;    
+        max-width: 700px;    
         margin: 0 auto;
         display: flex;
         flex-direction: column;   
@@ -229,8 +214,9 @@
                 display: block;
                 
                 .tipos-de-cartas__subtitulo-jugadores {                
-                    margin: 10px auto;                 
+                    margin: auto;                 
                     font-size: $tamaño-subtitulo-mobile;
+                    text-align: center;
                 }            
                 .tipos-de-cartas__parrafo-jugadores {
                     width: 100%;
@@ -238,12 +224,12 @@
                     text-shadow: 1px 1px black;
                     font-weight: 900;  
                     font-size: $tamaño-parrafo-mobile;
-                    padding: 0 20px; 
+                    padding: 0 20px;
                 }            
             }
             .tipos-de-cartas__img-jug-y-dts {
                 margin-top: -20px;            
-                max-width: 900px;
+                max-width: 700px;
                             
             }
         }
@@ -254,7 +240,7 @@
             padding: 0;               
         }
         .tipos-de-cartas__div-equipos {
-            max-width: 900px;        
+            max-width: 700px;        
             margin: auto;
                     
             
@@ -268,17 +254,17 @@
                     text-shadow: 1px 1px black;
                     font-weight: 900; 
                     font-size: $tamaño-parrafo-mobile;
-                    padding: 0 20px; 
+                    padding: 0 20px;
                 }     
             } 
             .tipos-de-cartas__img-equipos {
-                max-width: 900px;  
+                max-width: 700px;  
                 margin-top: 60px;                              
             }
         } 
     
         .tipos-de-cartas__div-modificadoras {
-            max-width: 900px;           
+            max-width: 700px;           
             margin-top: 0;        
             padding-bottom: 0;          
             box-sizing: border-box;
@@ -298,17 +284,17 @@
                     text-shadow: 1px 1px black;
                     font-weight: 900; 
                     font-size: $tamaño-parrafo-mobile;
-                    padding: 0 20px; 
+                    padding: 0 20px;
                 }     
             } 
             .tipos-de-cartas__img-modificadoras {
-                width: 900px;  
+                width: 700px;  
                 margin-bottom: 30px;                  
             }
         }   
     }
     .partido {
-        max-width: 900px;      
+        max-width: 700px;      
         padding: 0;        
         .partido__div {
             margin-top: 0;     
@@ -321,12 +307,12 @@
                 text-shadow: 1px 1px black;
                 font-weight: 900;  
                 font-size: $tamaño-parrafo-mobile;
-                padding: 0 20px; 
+                padding: 0 20px;
             }
         }
     }  
     .campeonato {
-        max-width: 900px;
+        max-width: 700px;
         display: flex;    
         padding: 0;        
         .campeonato__div {        
@@ -342,12 +328,12 @@
                 text-shadow: 1px 1px black;
                 font-weight: 900;   
                 font-size: $tamaño-parrafo-mobile;
-                padding: 0 20px; 
+                padding: 0 20px;
             }
         }
     }  
     .ganador {
-        max-width: 900px;
+        max-width: 700px;
         display: flex;    
         padding: 20px 0;        
         .ganador__div {
@@ -359,24 +345,27 @@
                 
             border-bottom: solid 1px $amarillo;   
             .ganador__titulo {
-                font-size: $tamaño-titulo-mobile;          
+                font-size: $tamaño-titulo-mobile; 
+                padding: 0 20px;         
             }
             .ganador__parrafo {
                 font-size: $tamaño-parrafo-mobile;
                 line-height: 200%;            
                 text-shadow: 1px 1px black;
                 font-weight: 900;    
+                padding: 0 20px;
             }
         }
     } 
     .contenido {
-        max-width: 900px;
+        max-width: 700px;
         display: flex;  
         flex-direction: column;  
         padding: 0;     
         .contenido__titulo {
             font-size: $tamaño-titulo-mobile;
             margin-top: 30px;
+            
         }   
         .contenido__div-total {
                                 
@@ -385,7 +374,7 @@
                 
             .contenido__div-total-subtitulo {
                 font-size: $tamaño-subtitulo-mobile;
-                padding: 0 20px; 
+                padding: 0 20px;
                         
             }
             .contenido__div-total-lista {
@@ -417,13 +406,12 @@
     }  
     /* HISTORIA */
     .section-creacion {
-        max-width: 900px;
+        max-width: 700px;
         padding-top: 20px;
         margin: auto;
         padding-bottom: 50px;
-
         .section-creacion__div {
-            max-width: 900px;         
+            max-width: 700px;         
             
             .section-creacion__titulo {
                 font-size: $tamaño-titulo-mobile;         
@@ -432,17 +420,18 @@
                 font-size: $tamaño-parrafo-mobile;
                 line-height: 200%;            
                 text-shadow: 1px 1px black;
-                font-weight: 900;                
+                font-weight: 900;  
+                padding: 0 20px;              
             }
         }
     }
     .section-youtube {
-        max-width: 900px;     
+        max-width: 700px;     
         padding-top: 10px;
         padding-bottom: 10px;
         .section-youtube__video {
-            width: 900px; 
-            height: 750px;          
+            width: 700px; 
+            height: 550px;          
         }
     }
     /* IMAGENES */ 
@@ -458,72 +447,79 @@
         }
     }
     .galeria__section {
-        max-width: 900px;
+        max-width: 700px;
         margin: auto;
         .galeria__div {
-            max-width: 900px;
+            max-width: 700px;
             margin: auto;
             display: flex;
             flex-direction: wrap;
             flex-wrap: wrap;
-
+    
             .galeria__item-1 {
-                max-width: 440px;
+                max-width: 100%;
                 .galeria__img1 {
                     height: auto;
+                    border: solid 1px $white;
                 }
             }
             .galeria__item-2 {
-                max-width: 440px;
+                max-width: 100%;
                 .galeria__img2 {
                     height: auto;
+                    border: solid 1px $white;
                 }
             }
             .galeria__item-3 {
-                max-width: 440px;
+                max-width: 100%;
                 .galeria__img3 {
                     height: auto;
+                    border: solid 1px $white;
                 }
             }
             .galeria__item-4 {
-                max-width: 440px;
+                max-width: 100%;
                 .galeria__img4 {
                     height: auto;
+                    border: solid 1px $white;
                 }
             }
-            .galeria__item-5 {
-                max-width: 440px;
+            .galeria__item-5 {            
                 display: none;
             }
             .galeria__item-6 {
-                max-width: 440px;
+                max-width: 100%;
                 .galeria__img6 {
                     height: auto;
+                    border: solid 1px $white;
                 }
             }
             .galeria__item-7 {
-                max-width: 440px;
+                max-width: 100%;
                 .galeria__img7 {
                     height: auto;
+                    border: solid 1px $white;
                 }
             }
             .galeria__item-8 {
-                max-width: 440px;
+                max-width: 100%;
                 .galeria__img8 {
                     height: auto;
+                    border: solid 1px $white;
                 }
             }
             .galeria__item-9 {
-                max-width: 440px;
+                max-width: 100%;
                 .galeria__img9 {
                     height: auto;
+                    border: solid 1px $white;
                 }
             }                  
         }
-    }    
+    }
     /* CONTACTO */ 
     .section-form {
-        width: 900px;
+        width: 700px;
         padding-top: 30px;
         margin: auto;    
         .form {
@@ -570,6 +566,5 @@
                 }            
             }
         }
-    }     
+    }
 }
-

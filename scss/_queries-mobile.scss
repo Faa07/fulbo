@@ -1,42 +1,52 @@
-// // X-Small devices (portrait phones, less than 576px)
-// @media (max-width: 575.98px) { ... }
-
-// // Small devices (landscape phones, less than 768px)
-// @media (max-width: 767.98px) { ... }
-
-// // Medium devices (tablets, less than 992px)
-// @media (max-width: 991.98px) { ... }
-
-// // Large devices (desktops, less than 1200px)
-// @media (max-width: 1199.98px) { ... }
-
-// // X-Large devices (large desktops, less than 1400px)
-// @media (max-width: 1399.98px) { ... }
-
-
-
-
-
-@media (min-width: 768px) and (max-width: 991.98px) {    
- 
+@media all and (max-width: 575.98px) {    
 
     .contenedor {
-        max-width: 900px; 
+        max-width: 80%; 
         margin: 0 auto;
     }    
     /* HEADER */    
-    .header {    
+    .header {           
         position: static; 
-        height: 100px;
+        height: 80px;
     
         .header__nav {           
             display: grid; 
             grid-template-columns: 90% 10%;
     
             .header__div-logo {
+                max-width: 100%;                  
+                animation-name: fulbo; 
+                -webkit-animation-name: fulbo; 
+                -webkit-animation-duration: 1.5s; 
+                animation-duration: 1.5s;    
+                -webkit-animation-fill-mode: both; 
+                animation-fill-mode: both;
+    
+                @-webkit-keyframes fulbo {
+                    from {
+                        opacity: 0; 
+                        -webkit-transform: translate3d(-2000px, 0, 0);
+                        transform: translate3d(-2000px, 0, 0);} 
+                    to {
+                        opacity: 1; 
+                        -webkit-transform: translate3d(0, 0, 0);
+                        transform: translate3d(0, 0, 0);} }
                 
+                @keyframes fulbo {
+                    from {
+                        opacity: 0; 
+                        -webkit-transform: translate3d(-2000px, 0, 0);
+                        transform: translate3d(-2000px, 0, 0);} 
+                    to {
+                        opacity: 1; 
+                        -webkit-transform: translate3d(0, 0, 0);
+                        transform: translate3d(0, 0, 0);} }
+    
+                .header__enlace {
+                    text-decoration: none;
+                }
                 .header__logo {
-                    max-width: 300px;
+                    max-width: 200px;
                 }
             }    
     
@@ -52,7 +62,9 @@
                     padding: 10px;
                     font-size: $tamaño-titulo;
                     border: none;
-                    cursor: pointer;                             
+                    cursor: pointer;  
+                    position: relative;  
+                    z-index: 10;                         
                 }
     
                 .header__boton:hover {
@@ -62,10 +74,10 @@
                 .header__div-submenu {
                     right: 0;
                     display: none;
-                    position: absolute;                                               
+                    position: absolute;                                                
                     background-color: $green;
-                    min-width: 350px;                
-                    z-index: 1;
+                    min-width: 350px; 
+                    z-index: 10;                             
     
                     .header__enlace-submenu {                    
                         text-decoration: none;
@@ -77,17 +89,22 @@
                         opacity: 1;
                         margin: auto;
                         padding: auto;                    
-                        text-align: center;                    
-                    }
+                        text-align: center;
+                        z-index: 10;                        
+                    }    
                     .header__enlace-submenu:hover {
                         color: $rojo;
-                        background-color: $amarillo;
+                        background-color: $amarillo;    
                     }
                 }
-            }  
+            }    
+    
             .header__div-menu:hover .header__div-submenu {
-                display: block;            
+                display: block; 
+                z-index: 10;           
             }
+                    
+    
             .header__div-barraNav {
                 display: none;            
             }        
@@ -97,8 +114,16 @@
     .footer {
         
         .footer__div-enlaces {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            
             
             .footer__fulbo {
+                justify-content: left;
+                padding-left: 0;
+                justify-content: center;
+                margin-bottom: 30px;
                 
                 .footer__titulo {                
                     font-size: $tamaño-subtitulo-mobile;
@@ -118,6 +143,7 @@
                 display: grid;
                 grid-template-rows: max-content;
                 justify-content: center;
+                margin-bottom: 30px;
                 .footer__titulo {
                     font-size: $tamaño-subtitulo-mobile;
                 }
@@ -129,6 +155,7 @@
                 }
             }
             .footer__diseño {
+                margin-bottom: 20px;
                 
                 .footer__titulo {
                     font-size: $tamaño-parrafo-mobile;               
@@ -141,33 +168,31 @@
         margin: -100px auto 10px auto;                
         .main-video__video {
             margin: auto;
-            max-width: 100%;   
-            pointer-events: none;                      
+            max-width: 100%;  
+            pointer-events: none;                     
         }    
     }
     .introduccion {
-        max-width: 900px;    
+        max-width: 80%;   
         margin-top: -30px;   
     
         .introduccion__div {
             
             .introduccion__titulo {
-                font-size: $tamaño-titulo-mobile;
-                            
+                font-size: $tamaño-titulo-mobile;                         
             }
             .introduccion__parrafo {                         
                 line-height: 200%;                
                 text-shadow: 1px 1px black;  
                 font-weight: 900;
                 font-size: $tamaño-parrafo-mobile;
-                padding: 0 20px; 
-                
+                padding: 0 20px;                
             }
         }
     }  
     /* CONTENIDO Y REGLAS */
     .sinopsis {
-        width: 900px;
+        max-width: 80%;
         margin-top: 0;
         display: flex;    
         padding: 10px 0;       
@@ -177,19 +202,19 @@
             padding-bottom: 20px;
             .sinopsis__titulo { 
                 font-size: $tamaño-titulo-mobile;
-                            
+                          
             }
             .sinopsis__parrafo {                          
                 line-height: 200%;            
                 text-shadow: 1px 1px black;
                 font-weight: 900;  
-                font-size: $tamaño-parrafo-mobile; 
-                padding: 0 20px;           
+                font-size: $tamaño-parrafo-mobile;  
+                padding: 0 20px;         
             }
         }
     }  
     .comienzo {
-        max-width: 900px;       
+        max-width: 80%;       
         padding: 10px 0;        
         .comienzo__div {        
             margin-top: 10px;  
@@ -204,62 +229,68 @@
                 text-shadow: 1px 1px black;
                 font-weight: 900;    
                 font-size: $tamaño-parrafo-mobile;
-                padding: 0 20px; 
+                padding: 0 20px;
             }
         }
     } 
     .tipos-de-cartas {
-        max-width: 900px;    
+        max-width: 80%;    
         margin: 0 auto;
         display: flex;
         flex-direction: column;   
         .tipos-de-cartas__titulo {
             padding-top: 20px;
-            font-size: $tamaño-titulo-mobile;
-                    
+            font-size: $tamaño-titulo-mobile;  
+            margin-bottom: 30px;                  
         } 
         .tipos-de-cartas__div-jug-y-dts {
             max-width: 100%;        
             display: grid;
             grid-template-columns: 100%;
-            grid-template-rows: 30% 70%;
+            grid-template-rows: auto;
             margin-top: 10px; 
-            margin-bottom: 10px;       
+            margin-bottom: 50px;       
             .tipos-de-cartas__div-texto {
                 display: block;
+                margin-bottom: 30px;
                 
                 .tipos-de-cartas__subtitulo-jugadores {                
-                    margin: 10px auto;                 
+                    margin: auto;                 
                     font-size: $tamaño-subtitulo-mobile;
+                    text-align: center;
+                    margin-bottom: 20px;
+                    
                 }            
                 .tipos-de-cartas__parrafo-jugadores {
-                    width: 100%;
+                    max-width: 100%;
                     line-height: 200%;            
                     text-shadow: 1px 1px black;
                     font-weight: 900;  
                     font-size: $tamaño-parrafo-mobile;
-                    padding: 0 20px; 
+                    padding: 0 20px;
+                    margin: auto;
                 }            
             }
             .tipos-de-cartas__img-jug-y-dts {
-                margin-top: -20px;            
-                max-width: 900px;
-                            
+                margin-top: -30px;            
+                max-width: 100%;                          
             }
-        }
-    
+        }    
         .tipos-de-cartas__span {             
-            width: 80%;
-            margin: 20px auto;
-            padding: 0;               
+            display: none;            
         }
         .tipos-de-cartas__div-equipos {
-            max-width: 900px;        
-            margin: auto;
-                    
+            max-width: 100%;        
+            margin: auto;        
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: auto; 
+            margin-top: 50px;
+            margin-bottom: 50px;           
+                  
             
             .tipos-de-cartas__div-texto {
-                            
+                         
                 .tipos-de-cartas__subtitulo-equipos {
                     font-size: $tamaño-subtitulo-mobile;
                 } 
@@ -268,26 +299,27 @@
                     text-shadow: 1px 1px black;
                     font-weight: 900; 
                     font-size: $tamaño-parrafo-mobile;
-                    padding: 0 20px; 
+                    padding: 0 20px;
                 }     
             } 
             .tipos-de-cartas__img-equipos {
-                max-width: 900px;  
-                margin-top: 60px;                              
+                max-width: 100%;  
+                margin-top: 50px;                                              
             }
         } 
     
         .tipos-de-cartas__div-modificadoras {
-            max-width: 900px;           
-            margin-top: 0;        
+            max-width: 100%;           
+            margin-top: 50px;        
             padding-bottom: 0;          
             box-sizing: border-box;
             display: grid;
             grid-template-columns: 100%;
-            grid-template-rows: 60% 40%;
-                
-                
+            grid-template-rows: auto;
+              
+              
             .tipos-de-cartas__div-texto {
+                
                 
                 
                 .tipos-de-cartas__subtitulo-modificadoras {
@@ -298,56 +330,57 @@
                     text-shadow: 1px 1px black;
                     font-weight: 900; 
                     font-size: $tamaño-parrafo-mobile;
-                    padding: 0 20px; 
+                    padding: 0 20px;
                 }     
             } 
             .tipos-de-cartas__img-modificadoras {
-                width: 900px;  
+                max-width: 100%; 
                 margin-bottom: 30px;                  
             }
         }   
     }
     .partido {
-        max-width: 900px;      
+        max-width: 80%;      
         padding: 0;        
         .partido__div {
             margin-top: 0;     
             .partido__titulo {
                 font-size: $tamaño-titulo-mobile;
-                            
+                padding: 0 20px;
+                         
             }
             .partido__parrafo {
                 line-height: 200%;            
                 text-shadow: 1px 1px black;
                 font-weight: 900;  
                 font-size: $tamaño-parrafo-mobile;
-                padding: 0 20px; 
+                padding: 0 20px;
             }
         }
     }  
     .campeonato {
-        max-width: 900px;
+        max-width: 80%;
         display: flex;    
         padding: 0;        
         .campeonato__div {        
             margin: 20px auto;   
             border-bottom: solid 1px $amarillo;     
-                    
+                 
             .campeonato__titulo {
                 font-size: $tamaño-titulo-mobile;
-                            
+                          
             }
             .campeonato__parrafo {
                 line-height: 200%;            
                 text-shadow: 1px 1px black;
                 font-weight: 900;   
                 font-size: $tamaño-parrafo-mobile;
-                padding: 0 20px; 
+                padding: 0 20px;
             }
         }
     }  
     .ganador {
-        max-width: 900px;
+        max-width: 80%;
         display: flex;    
         padding: 20px 0;        
         .ganador__div {
@@ -356,21 +389,23 @@
             flex-direction: column;
             justify-content: center;
             margin-top: 0;               
-                
+              
             border-bottom: solid 1px $amarillo;   
             .ganador__titulo {
-                font-size: $tamaño-titulo-mobile;          
+                font-size: $tamaño-titulo-mobile;   
+                padding: 0 20px;       
             }
             .ganador__parrafo {
                 font-size: $tamaño-parrafo-mobile;
                 line-height: 200%;            
                 text-shadow: 1px 1px black;
-                font-weight: 900;    
+                font-weight: 900;   
+                padding: 0 20px; 
             }
         }
     } 
     .contenido {
-        max-width: 900px;
+        max-width: 80%;
         display: flex;  
         flex-direction: column;  
         padding: 0;     
@@ -379,20 +414,20 @@
             margin-top: 30px;
         }   
         .contenido__div-total {
-                                
+                               
             padding-bottom: 0;
             margin-bottom: 30px; 
                 
             .contenido__div-total-subtitulo {
                 font-size: $tamaño-subtitulo-mobile;
-                padding: 0 20px; 
                         
             }
             .contenido__div-total-lista {
                 font-size: $tamaño-parrafo-mobile;
                 line-height: 200%;            
                 text-shadow: 1px 1px black;
-                font-weight: 900;  
+                font-weight: 900; 
+                padding: 0 20px; 
                             
             }
         }
@@ -411,19 +446,19 @@
                 font-size: $tamaño-parrafo-mobile;
                 line-height: 200%;            
                 text-shadow: 1px 1px black;
-                font-weight: 900;    
+                font-weight: 900;   
+                padding: 0 20px; 
             }
         }
     }  
     /* HISTORIA */
     .section-creacion {
-        max-width: 900px;
+        max-width: 80%;
         padding-top: 20px;
         margin: auto;
         padding-bottom: 50px;
-
         .section-creacion__div {
-            max-width: 900px;         
+            max-width: 100%;         
             
             .section-creacion__titulo {
                 font-size: $tamaño-titulo-mobile;         
@@ -432,17 +467,19 @@
                 font-size: $tamaño-parrafo-mobile;
                 line-height: 200%;            
                 text-shadow: 1px 1px black;
-                font-weight: 900;                
+                font-weight: 900;   
+                padding: 0 20px;             
             }
         }
     }
     .section-youtube {
-        max-width: 900px;     
+        max-width: 80%;     
         padding-top: 10px;
         padding-bottom: 10px;
         .section-youtube__video {
-            width: 900px; 
-            height: 750px;          
+            max-width: 100%; 
+            max-height: 400px;
+                     
         }
     }
     /* IMAGENES */ 
@@ -458,77 +495,84 @@
         }
     }
     .galeria__section {
-        max-width: 900px;
+        max-width: 500px;
         margin: auto;
         .galeria__div {
-            max-width: 900px;
+            max-width: 500px;
             margin: auto;
             display: flex;
             flex-direction: wrap;
             flex-wrap: wrap;
-
+    
             .galeria__item-1 {
-                max-width: 440px;
+                max-width: 500px;
                 .galeria__img1 {
-                    height: auto;
+                    height: auto;                
+                    padding: 0 20px;
                 }
             }
             .galeria__item-2 {
-                max-width: 440px;
+                max-width: 500px;
                 .galeria__img2 {
-                    height: auto;
+                    height: auto;                
+                    padding: 0 20px;
                 }
             }
             .galeria__item-3 {
-                max-width: 440px;
+                max-width: 500px;
                 .galeria__img3 {
-                    height: auto;
+                    height: auto;                
+                    padding: 0 20px;
                 }
             }
             .galeria__item-4 {
-                max-width: 440px;
+                max-width: 500px;
                 .galeria__img4 {
-                    height: auto;
+                    height: auto;                
+                    padding: 0 20px;
                 }
             }
-            .galeria__item-5 {
-                max-width: 440px;
+            .galeria__item-5 {            
                 display: none;
             }
             .galeria__item-6 {
-                max-width: 440px;
+                max-width: 500px;
                 .galeria__img6 {
-                    height: auto;
+                    height: auto;                
+                    padding: 0 20px;
                 }
             }
             .galeria__item-7 {
-                max-width: 440px;
+                max-width: 500px;
                 .galeria__img7 {
-                    height: auto;
+                    height: auto;                
+                    padding: 0 20px;
                 }
             }
             .galeria__item-8 {
-                max-width: 440px;
+                max-width: 500px;
                 .galeria__img8 {
-                    height: auto;
+                    height: auto;               
+                    padding: 0 20px;
                 }
             }
             .galeria__item-9 {
-                max-width: 440px;
+                max-width: 500px;
                 .galeria__img9 {
-                    height: auto;
+                    height: auto;                
+                    padding: 0 20px;
                 }
             }                  
         }
-    }    
+    }
     /* CONTACTO */ 
     .section-form {
-        width: 900px;
+        max-width: 80%;
         padding-top: 30px;
         margin: auto;    
         .form {
             width: 100%;
-                    
+                   
             .form__div {
                 width: 100%;
                 
@@ -551,18 +595,18 @@
                 }         
                 .form__label {
                     font-size: $tamaño-parrafo-mobile;                 
-                    top: -4vh;                                        
+                                                           
                 }
                 input, textarea {                
                     font-size: $tamaño-parrafo-mobile; 
                                     
                 }           
                 input:focus~label, input:valid~label {                
-                    top: -10vh;                
+                                    
                     font-size: $tamaño-subtitulo-mobile;                
                 }
                 textarea:focus~label, textarea:valid~label {                
-                    top: -20vh;                
+                                    
                     font-size: $tamaño-subtitulo-mobile;                
                 }
                 .form__button {                    
@@ -570,6 +614,5 @@
                 }            
             }
         }
-    }     
+    }
 }
-

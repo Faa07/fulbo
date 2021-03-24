@@ -26,6 +26,7 @@
       text-shadow: 2px 2px black; }
     .introduccion .introduccion__div .introduccion__parrafo {
       width: 100%;
+      padding: 0 20px;
       font-family: "Open Sans", sans-serif, justify;
       color: #ffffff;
       line-height: 150%;
@@ -45,7 +46,7 @@
     flex-direction: column;
     justify-content: center;
     margin-top: 150px;
-    border-bottom: solid 1px #FFD163;
+    border-bottom: 1px solid #FFD163;
     padding-bottom: 50px; }
     .sinopsis .sinopsis__div .sinopsis__titulo {
       font-family: "Pridi", serif;
@@ -61,7 +62,8 @@
       font-size: calc(0.3rem + 0.8vw);
       justify-self: center;
       text-align: justify;
-      text-shadow: 2px 2px black; }
+      text-shadow: 2px 2px black;
+      padding: 0 20px; }
 
 .comienzo {
   max-width: 1200px;
@@ -72,7 +74,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 20px;
+    padding-bottom: 50px;
     border-bottom: solid 1px #FFD163; }
     .comienzo .comienzo__div .comienzo__titulo {
       font-family: "Pridi", serif;
@@ -88,7 +90,8 @@
       font-size: calc(0.3rem + 0.8vw);
       justify-self: center;
       text-align: justify;
-      text-shadow: 2px 2px black; }
+      text-shadow: 2px 2px black;
+      padding: 0 20px; }
 
 .tipos-de-cartas {
   max-width: 1200px;
@@ -117,7 +120,8 @@
         font-size: calc(0.8rem + 1vw);
         color: #FFD163;
         margin: 0;
-        text-shadow: 2px 2px black; }
+        text-shadow: 2px 2px black;
+        padding: 0 20px; }
       .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__div-texto .tipos-de-cartas__parrafo-jugadores {
         width: 90%;
         font-family: "Open Sans", sans-serif, justify;
@@ -126,13 +130,14 @@
         font-size: calc(0.3rem + 0.8vw);
         justify-self: center;
         text-align: justify;
-        text-shadow: 2px 2px black; }
+        text-shadow: 2px 2px black;
+        padding: 0 20px; }
     .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__img-jug-y-dts {
       justify-self: center;
       align-items: center; }
   .tipos-de-cartas .tipos-de-cartas__span {
     border-bottom: solid 2px #ffffff;
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding: 15px 0;
     opacity: 0.7; }
@@ -162,9 +167,11 @@
         font-size: calc(0.3rem + 0.8vw);
         justify-self: center;
         text-align: justify;
-        text-shadow: 2px 2px black; }
+        text-shadow: 2px 2px black;
+        padding: 0 20px; }
     .tipos-de-cartas .tipos-de-cartas__div-equipos .tipos-de-cartas__img-equipos {
-      max-width: 1200px; }
+      max-width: 90%;
+      margin: auto; }
   .tipos-de-cartas .tipos-de-cartas__div-modificadoras {
     max-width: 1200px;
     display: grid;
@@ -172,8 +179,7 @@
     grid-template-rows: 40% 60%;
     margin-bottom: 50px;
     margin-top: 50px;
-    border-bottom: solid 1px #FFD163;
-    padding-bottom: 50px; }
+    padding-bottom: 30px; }
     .tipos-de-cartas .tipos-de-cartas__div-modificadoras .tipos-de-cartas__div-texto {
       display: flex;
       flex-direction: column;
@@ -193,9 +199,10 @@
         font-size: calc(0.3rem + 0.8vw);
         justify-self: center;
         text-align: justify;
-        text-shadow: 2px 2px black; }
+        text-shadow: 2px 2px black;
+        padding: 0 20px; }
     .tipos-de-cartas .tipos-de-cartas__div-modificadoras .tipos-de-cartas__img-modificadoras {
-      max-width: 1200px; }
+      max-width: 100%; }
 
 .partido {
   max-width: 1200px;
@@ -207,8 +214,10 @@
     flex-direction: column;
     justify-content: center;
     margin-top: 50px;
+    border-top: solid 1px #FFD163;
     border-bottom: solid 1px #FFD163;
-    padding-bottom: 50px; }
+    padding-bottom: 50px;
+    padding-top: 50px; }
     .partido .partido__div .partido__titulo {
       font-family: "Pridi", serif;
       font-size: calc(1rem + 1vw);
@@ -223,18 +232,18 @@
       font-size: calc(0.3rem + 0.8vw);
       justify-self: center;
       text-align: justify;
-      text-shadow: 2px 2px black; }
+      text-shadow: 2px 2px black;
+      padding: 0 20px; }
 
 .campeonato {
   max-width: 1200px;
-  display: flex;
-  padding: 30px 0; }
+  display: flex; }
   .campeonato .campeonato__div {
     max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 30px;
     border-bottom: solid 1px #FFD163;
     padding-bottom: 50px; }
     .campeonato .campeonato__div .campeonato__titulo {
@@ -251,7 +260,8 @@
       font-size: calc(0.3rem + 0.8vw);
       justify-self: center;
       text-align: justify;
-      text-shadow: 2px 2px black; }
+      text-shadow: 2px 2px black;
+      padding: 0 20px; }
 
 .ganador {
   max-width: 1200px;
@@ -271,7 +281,7 @@
       margin: auto;
       text-shadow: 2px 2px black; }
     .ganador .ganador__div .ganador__parrafo {
-      width: 100%;
+      max-width: 100%;
       font-family: "Open Sans", sans-serif, justify;
       color: #ffffff;
       line-height: 150%;
@@ -364,7 +374,8 @@
       font-size: calc(0.3rem + 0.8vw);
       justify-self: center;
       text-align: justify;
-      text-shadow: 2px 2px black; }
+      text-shadow: 2px 2px black;
+      padding: 0 20px; }
 
 .section-youtube {
   max-width: 1200px;
@@ -457,7 +468,7 @@
       grid-area: 9; }
 
 .section-form {
-  width: 1200px;
+  max-width: 1200px;
   padding-top: 150px;
   margin: auto; }
   .section-form .form {
@@ -467,18 +478,17 @@
     margin: auto;
     border-radius: 15px; }
     .section-form .form .form__div {
-      width: 100%;
+      max-width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center; }
       .section-form .form .form__div .form__titulo {
         font-family: "Pridi", serif;
-        font-size: 22pt;
+        font-size: calc(1rem + 1vw);
         color: #224F99;
-        margin: 0;
-        padding: 30px 0;
-        text-align: center; }
+        margin: auto;
+        padding: 30px 0; }
       .section-form .form .form__div .form__div-nombre {
         width: 70%;
         padding-bottom: 35px; }
@@ -492,7 +502,7 @@
         width: 70%;
         padding-bottom: 25px;
         font-family: "Open Sans", sans-serif, justify;
-        font-size: 12pt; }
+        font-size: calc(0.3rem + 0.8vw); }
       .section-form .form .form__div input:focus ~ .form__barra::before, .section-form .form .form__div textarea:focus ~ .form__barra::before {
         width: 100%; }
       .section-form .form .form__div .form__barra {
@@ -512,8 +522,8 @@
         font-family: "Open Sans", sans-serif, justify;
         color: #165C21;
         position: relative;
-        top: -4vh;
-        left: 1vh;
+        top: 0;
+        left: 0;
         transition: 0.5s ease all;
         pointer-events: none; }
       .section-form .form .form__div input, .section-form .form .form__div textarea {
@@ -531,14 +541,10 @@
         color: #638AC2; }
       .section-form .form .form__div input:focus ~ label, .section-form .form .form__div input:valid ~ label {
         position: relative;
-        top: -7vh;
-        left: 1vh;
         font-size: 12pt;
         color: #165C21; }
       .section-form .form .form__div textarea:focus ~ label, .section-form .form .form__div textarea:valid ~ label {
         position: relative;
-        top: -16vh;
-        left: 1vh;
         font-size: 12pt;
         color: #165C21; }
       .section-form .form .form__div .form__button {
@@ -573,7 +579,7 @@ body {
   background: url("https://Faa07.github.io/fulbo/media/fondito-web.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center; }
 
 .contenedor {
@@ -719,7 +725,7 @@ body {
 
 @media all and (max-width: 575.98px) {
   .contenedor {
-    max-width: 500px;
+    max-width: 80%;
     margin: 0 auto; }
   /* HEADER */
   .header {
@@ -769,16 +775,18 @@ body {
           padding: 10px;
           font-size: calc(1rem + 1vw);
           border: none;
-          cursor: pointer; }
+          cursor: pointer;
+          position: relative;
+          z-index: 10; }
         .header .header__nav .header__div-menu .header__boton:hover {
           color: #224F99; }
         .header .header__nav .header__div-menu .header__div-submenu {
+          right: 0;
           display: none;
           position: absolute;
-          left: -250px;
           background-color: #165C21;
           min-width: 350px;
-          z-index: 1; }
+          z-index: 10; }
           .header .header__nav .header__div-menu .header__div-submenu .header__enlace-submenu {
             text-decoration: none;
             display: block;
@@ -789,43 +797,58 @@ body {
             opacity: 1;
             margin: auto;
             padding: auto;
-            text-align: center; }
+            text-align: center;
+            z-index: 10; }
           .header .header__nav .header__div-menu .header__div-submenu .header__enlace-submenu:hover {
             color: #BA3014;
             background-color: #FFD163; }
       .header .header__nav .header__div-menu:hover .header__div-submenu {
-        display: block; }
+        display: block;
+        z-index: 10; }
       .header .header__nav .header__div-barraNav {
         display: none; }
   /* FOOTER */
-  .footer .footer__div-enlaces .footer__fulbo .footer__titulo {
-    font-size: calc(1rem + 1vw); }
-  .footer .footer__div-enlaces .footer__fulbo .footer__insta, .footer .footer__div-enlaces .footer__fulbo .footer__email, .footer .footer__div-enlaces .footer__fulbo .footer__face {
-    font-size: calc(0.5rem + 0.8vw); }
-  .footer .footer__div-enlaces .footer__fulbo .footer__icono {
-    font-size: calc(1rem + 0.8vw); }
-  .footer .footer__div-enlaces .footer__creador {
-    grid-area: creador;
-    width: 100%;
-    display: grid;
-    grid-template-rows: max-content;
-    justify-content: center; }
-    .footer .footer__div-enlaces .footer__creador .footer__titulo {
-      font-size: calc(1rem + 1vw); }
-    .footer .footer__div-enlaces .footer__creador .footer__behance {
-      font-size: calc(0.5rem + 0.8vw); }
-    .footer .footer__div-enlaces .footer__creador .footer__icono {
-      font-size: calc(1rem + 0.8vw); }
-  .footer .footer__div-enlaces .footer__diseño .footer__titulo {
-    font-size: calc(0.5rem + 0.8vw); }
+  .footer .footer__div-enlaces {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+    .footer .footer__div-enlaces .footer__fulbo {
+      justify-content: left;
+      padding-left: 0;
+      justify-content: center;
+      margin-bottom: 30px; }
+      .footer .footer__div-enlaces .footer__fulbo .footer__titulo {
+        font-size: calc(1rem + 1vw); }
+      .footer .footer__div-enlaces .footer__fulbo .footer__insta, .footer .footer__div-enlaces .footer__fulbo .footer__email, .footer .footer__div-enlaces .footer__fulbo .footer__face {
+        font-size: calc(0.8rem + 0.8vw); }
+      .footer .footer__div-enlaces .footer__fulbo .footer__icono {
+        font-size: calc(1rem + 0.8vw); }
+    .footer .footer__div-enlaces .footer__creador {
+      grid-area: creador;
+      width: 100%;
+      display: grid;
+      grid-template-rows: max-content;
+      justify-content: center;
+      margin-bottom: 30px; }
+      .footer .footer__div-enlaces .footer__creador .footer__titulo {
+        font-size: calc(1rem + 1vw); }
+      .footer .footer__div-enlaces .footer__creador .footer__behance {
+        font-size: calc(0.8rem + 0.8vw); }
+      .footer .footer__div-enlaces .footer__creador .footer__icono {
+        font-size: calc(1rem + 0.8vw); }
+    .footer .footer__div-enlaces .footer__diseño {
+      margin-bottom: 20px; }
+      .footer .footer__div-enlaces .footer__diseño .footer__titulo {
+        font-size: calc(0.8rem + 0.8vw); }
   /* INDEX */
   .main-video {
     margin: -100px auto 10px auto; }
     .main-video .main-video__video {
       margin: auto;
-      max-width: 100%; }
+      max-width: 100%;
+      pointer-events: none; }
   .introduccion {
-    max-width: 500px;
+    max-width: 80%;
     margin-top: -30px; }
     .introduccion .introduccion__div .introduccion__titulo {
       font-size: calc(1.3rem + 1vw); }
@@ -833,10 +856,11 @@ body {
       line-height: 200%;
       text-shadow: 1px 1px black;
       font-weight: 900;
-      font-size: calc(0.5rem + 0.8vw); }
+      font-size: calc(0.8rem + 0.8vw);
+      padding: 0 20px; }
   /* CONTENIDO Y REGLAS */
   .sinopsis {
-    width: 500px;
+    max-width: 80%;
     margin-top: 0;
     display: flex;
     padding: 10px 0; }
@@ -850,9 +874,10 @@ body {
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900;
-        font-size: calc(0.5rem + 0.8vw); }
+        font-size: calc(0.8rem + 0.8vw);
+        padding: 0 20px; }
   .comienzo {
-    max-width: 500px;
+    max-width: 80%;
     padding: 10px 0; }
     .comienzo .comienzo__div {
       margin-top: 10px;
@@ -864,85 +889,99 @@ body {
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900;
-        font-size: calc(0.5rem + 0.8vw); }
+        font-size: calc(0.8rem + 0.8vw);
+        padding: 0 20px; }
   .tipos-de-cartas {
-    max-width: 500px;
+    max-width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: column; }
     .tipos-de-cartas .tipos-de-cartas__titulo {
       padding-top: 20px;
-      font-size: calc(1.3rem + 1vw); }
+      font-size: calc(1.3rem + 1vw);
+      margin-bottom: 30px; }
     .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts {
       max-width: 100%;
       display: grid;
       grid-template-columns: 100%;
-      grid-template-rows: 30% 70%;
+      grid-template-rows: auto;
       margin-top: 10px;
-      margin-bottom: 10px; }
+      margin-bottom: 50px; }
       .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__div-texto {
-        display: block; }
+        display: block;
+        margin-bottom: 30px; }
         .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__div-texto .tipos-de-cartas__subtitulo-jugadores {
-          margin: 10px auto;
-          font-size: calc(1rem + 1vw); }
+          margin: auto;
+          font-size: calc(1rem + 1vw);
+          text-align: center;
+          margin-bottom: 20px; }
         .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__div-texto .tipos-de-cartas__parrafo-jugadores {
-          width: 100%;
+          max-width: 100%;
           line-height: 200%;
           text-shadow: 1px 1px black;
           font-weight: 900;
-          font-size: calc(0.5rem + 0.8vw); }
+          font-size: calc(0.8rem + 0.8vw);
+          padding: 0 20px;
+          margin: auto; }
       .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__img-jug-y-dts {
-        margin-top: -20px;
-        max-width: 500px; }
+        margin-top: -30px;
+        max-width: 100%; }
     .tipos-de-cartas .tipos-de-cartas__span {
-      width: 80%;
-      margin: 20px auto;
-      padding: 0; }
+      display: none; }
     .tipos-de-cartas .tipos-de-cartas__div-equipos {
-      max-width: 500px;
-      margin: auto; }
+      max-width: 100%;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: auto;
+      margin-top: 50px;
+      margin-bottom: 50px; }
       .tipos-de-cartas .tipos-de-cartas__div-equipos .tipos-de-cartas__div-texto .tipos-de-cartas__subtitulo-equipos {
         font-size: calc(1rem + 1vw); }
       .tipos-de-cartas .tipos-de-cartas__div-equipos .tipos-de-cartas__div-texto .tipos-de-cartas__parrafo-equipos {
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900;
-        font-size: calc(0.5rem + 0.8vw); }
+        font-size: calc(0.8rem + 0.8vw);
+        padding: 0 20px; }
       .tipos-de-cartas .tipos-de-cartas__div-equipos .tipos-de-cartas__img-equipos {
-        max-width: 500px;
-        margin-top: 60px; }
+        max-width: 100%;
+        margin-top: 50px; }
     .tipos-de-cartas .tipos-de-cartas__div-modificadoras {
-      max-width: 500px;
-      margin-top: 0;
+      max-width: 100%;
+      margin-top: 50px;
       padding-bottom: 0;
       box-sizing: border-box;
       display: grid;
       grid-template-columns: 100%;
-      grid-template-rows: 60% 40%; }
+      grid-template-rows: auto; }
       .tipos-de-cartas .tipos-de-cartas__div-modificadoras .tipos-de-cartas__div-texto .tipos-de-cartas__subtitulo-modificadoras {
         font-size: calc(1rem + 1vw); }
       .tipos-de-cartas .tipos-de-cartas__div-modificadoras .tipos-de-cartas__div-texto .tipos-de-cartas__parrafo-modificadoras {
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900;
-        font-size: calc(0.5rem + 0.8vw); }
+        font-size: calc(0.8rem + 0.8vw);
+        padding: 0 20px; }
       .tipos-de-cartas .tipos-de-cartas__div-modificadoras .tipos-de-cartas__img-modificadoras {
-        width: 500px;
+        max-width: 100%;
         margin-bottom: 30px; }
   .partido {
-    max-width: 500px;
+    max-width: 80%;
     padding: 0; }
     .partido .partido__div {
       margin-top: 0; }
       .partido .partido__div .partido__titulo {
-        font-size: calc(1.3rem + 1vw); }
+        font-size: calc(1.3rem + 1vw);
+        padding: 0 20px; }
       .partido .partido__div .partido__parrafo {
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900;
-        font-size: calc(0.5rem + 0.8vw); }
+        font-size: calc(0.8rem + 0.8vw);
+        padding: 0 20px; }
   .campeonato {
-    max-width: 500px;
+    max-width: 80%;
     display: flex;
     padding: 0; }
     .campeonato .campeonato__div {
@@ -954,9 +993,10 @@ body {
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900;
-        font-size: calc(0.5rem + 0.8vw); }
+        font-size: calc(0.8rem + 0.8vw);
+        padding: 0 20px; }
   .ganador {
-    max-width: 500px;
+    max-width: 80%;
     display: flex;
     padding: 20px 0; }
     .ganador .ganador__div {
@@ -967,14 +1007,16 @@ body {
       margin-top: 0;
       border-bottom: solid 1px #FFD163; }
       .ganador .ganador__div .ganador__titulo {
-        font-size: calc(1.3rem + 1vw); }
+        font-size: calc(1.3rem + 1vw);
+        padding: 0 20px; }
       .ganador .ganador__div .ganador__parrafo {
-        font-size: calc(0.5rem + 0.8vw);
+        font-size: calc(0.8rem + 0.8vw);
         line-height: 200%;
         text-shadow: 1px 1px black;
-        font-weight: 900; }
+        font-weight: 900;
+        padding: 0 20px; }
   .contenido {
-    max-width: 500px;
+    max-width: 80%;
     display: flex;
     flex-direction: column;
     padding: 0; }
@@ -987,10 +1029,11 @@ body {
       .contenido .contenido__div-total .contenido__div-total-subtitulo {
         font-size: calc(1rem + 1vw); }
       .contenido .contenido__div-total .contenido__div-total-lista {
-        font-size: calc(0.5rem + 0.8vw);
+        font-size: calc(0.8rem + 0.8vw);
         line-height: 200%;
         text-shadow: 1px 1px black;
-        font-weight: 900; }
+        font-weight: 900;
+        padding: 0 20px; }
     .contenido .contenido__subtitulo {
       font-size: calc(1rem + 1vw); }
     .contenido .contenido__div-cartas {
@@ -1001,32 +1044,34 @@ body {
         font-size: calc(1rem + 1vw);
         text-align: center; }
       .contenido .contenido__div-cartas .contenido__div-modificadoras-lista {
-        font-size: calc(0.5rem + 0.8vw);
+        font-size: calc(0.8rem + 0.8vw);
         line-height: 200%;
         text-shadow: 1px 1px black;
-        font-weight: 900; }
+        font-weight: 900;
+        padding: 0 20px; }
   /* HISTORIA */
   .section-creacion {
-    max-width: 500px;
+    max-width: 80%;
     padding-top: 20px;
     margin: auto;
     padding-bottom: 50px; }
     .section-creacion .section-creacion__div {
-      max-width: 500px; }
+      max-width: 100%; }
       .section-creacion .section-creacion__div .section-creacion__titulo {
         font-size: calc(1.3rem + 1vw); }
       .section-creacion .section-creacion__div .section-creacion__parrafo {
-        font-size: calc(0.5rem + 0.8vw);
+        font-size: calc(0.8rem + 0.8vw);
         line-height: 200%;
         text-shadow: 1px 1px black;
-        font-weight: 900; }
+        font-weight: 900;
+        padding: 0 20px; }
   .section-youtube {
-    max-width: 500px;
+    max-width: 80%;
     padding-top: 10px;
     padding-bottom: 10px; }
     .section-youtube .section-youtube__video {
-      width: 500px;
-      height: 350px; }
+      max-width: 100%;
+      max-height: 400px; }
   /* IMAGENES */
   .galeria__titulo-div {
     max-width: 100%;
@@ -1050,47 +1095,47 @@ body {
         max-width: 500px; }
         .galeria__section .galeria__div .galeria__item-1 .galeria__img1 {
           height: auto;
-          border: solid 1px #ffffff; }
+          padding: 0 20px; }
       .galeria__section .galeria__div .galeria__item-2 {
         max-width: 500px; }
         .galeria__section .galeria__div .galeria__item-2 .galeria__img2 {
           height: auto;
-          border: solid 1px #ffffff; }
+          padding: 0 20px; }
       .galeria__section .galeria__div .galeria__item-3 {
         max-width: 500px; }
         .galeria__section .galeria__div .galeria__item-3 .galeria__img3 {
           height: auto;
-          border: solid 1px #ffffff; }
+          padding: 0 20px; }
       .galeria__section .galeria__div .galeria__item-4 {
         max-width: 500px; }
         .galeria__section .galeria__div .galeria__item-4 .galeria__img4 {
           height: auto;
-          border: solid 1px #ffffff; }
+          padding: 0 20px; }
       .galeria__section .galeria__div .galeria__item-5 {
         display: none; }
       .galeria__section .galeria__div .galeria__item-6 {
         max-width: 500px; }
         .galeria__section .galeria__div .galeria__item-6 .galeria__img6 {
           height: auto;
-          border: solid 1px #ffffff; }
+          padding: 0 20px; }
       .galeria__section .galeria__div .galeria__item-7 {
         max-width: 500px; }
         .galeria__section .galeria__div .galeria__item-7 .galeria__img7 {
           height: auto;
-          border: solid 1px #ffffff; }
+          padding: 0 20px; }
       .galeria__section .galeria__div .galeria__item-8 {
         max-width: 500px; }
         .galeria__section .galeria__div .galeria__item-8 .galeria__img8 {
           height: auto;
-          border: solid 1px #ffffff; }
+          padding: 0 20px; }
       .galeria__section .galeria__div .galeria__item-9 {
         max-width: 500px; }
         .galeria__section .galeria__div .galeria__item-9 .galeria__img9 {
           height: auto;
-          border: solid 1px #ffffff; }
+          padding: 0 20px; }
   /* CONTACTO */
   .section-form {
-    width: 500px;
+    max-width: 80%;
     padding-top: 30px;
     margin: auto; }
     .section-form .form {
@@ -1107,24 +1152,21 @@ body {
           width: 80%; }
         .section-form .form .form__div .form__div-textarea {
           width: 80%;
-          font-size: calc(0.5rem + 0.8vw); }
+          font-size: calc(0.8rem + 0.8vw); }
         .section-form .form .form__div .form__label {
-          font-size: calc(0.5rem + 0.8vw);
-          top: -4vh; }
+          font-size: calc(0.8rem + 0.8vw); }
         .section-form .form .form__div input, .section-form .form .form__div textarea {
-          font-size: calc(0.5rem + 0.8vw); }
+          font-size: calc(0.8rem + 0.8vw); }
         .section-form .form .form__div input:focus ~ label, .section-form .form .form__div input:valid ~ label {
-          top: -10vh;
           font-size: calc(1rem + 1vw); }
         .section-form .form .form__div textarea:focus ~ label, .section-form .form .form__div textarea:valid ~ label {
-          top: -20vh;
           font-size: calc(1rem + 1vw); }
         .section-form .form .form__div .form__button {
           font-size: calc(1rem + 1vw); } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .contenedor {
-    max-width: 700px;
+    max-width: 80%;
     margin: 0 auto; }
   /* HEADER */
   .header {
@@ -1146,16 +1188,18 @@ body {
           padding: 10px;
           font-size: calc(1rem + 1vw);
           border: none;
-          cursor: pointer; }
+          cursor: pointer;
+          position: relative;
+          z-index: 10; }
         .header .header__nav .header__div-menu .header__boton:hover {
           color: #224F99; }
         .header .header__nav .header__div-menu .header__div-submenu {
+          right: 0;
           display: none;
           position: absolute;
-          left: -230px;
           background-color: #165C21;
           min-width: 350px;
-          z-index: 1; }
+          z-index: 10; }
           .header .header__nav .header__div-menu .header__div-submenu .header__enlace-submenu {
             text-decoration: none;
             display: block;
@@ -1166,19 +1210,21 @@ body {
             opacity: 1;
             margin: auto;
             padding: auto;
-            text-align: center; }
+            text-align: center;
+            z-index: 10; }
           .header .header__nav .header__div-menu .header__div-submenu .header__enlace-submenu:hover {
             color: #BA3014;
             background-color: #FFD163; }
       .header .header__nav .header__div-menu:hover .header__div-submenu {
-        display: block; }
+        display: block;
+        z-index: 10; }
       .header .header__nav .header__div-barraNav {
         display: none; }
   /* FOOTER */
   .footer .footer__div-enlaces .footer__fulbo .footer__titulo {
     font-size: calc(1rem + 1vw); }
   .footer .footer__div-enlaces .footer__fulbo .footer__insta, .footer .footer__div-enlaces .footer__fulbo .footer__email, .footer .footer__div-enlaces .footer__fulbo .footer__face {
-    font-size: calc(0.5rem + 0.8vw); }
+    font-size: calc(0.8rem + 0.8vw); }
   .footer .footer__div-enlaces .footer__fulbo .footer__icono {
     font-size: calc(1rem + 0.8vw); }
   .footer .footer__div-enlaces .footer__creador {
@@ -1190,17 +1236,18 @@ body {
     .footer .footer__div-enlaces .footer__creador .footer__titulo {
       font-size: calc(1rem + 1vw); }
     .footer .footer__div-enlaces .footer__creador .footer__behance {
-      font-size: calc(0.5rem + 0.8vw); }
+      font-size: calc(0.8rem + 0.8vw); }
     .footer .footer__div-enlaces .footer__creador .footer__icono {
       font-size: calc(1rem + 0.8vw); }
   .footer .footer__div-enlaces .footer__diseño .footer__titulo {
-    font-size: calc(0.5rem + 0.8vw); }
+    font-size: calc(0.8rem + 0.8vw); }
   /* INDEX */
   .main-video {
     margin: -100px auto 10px auto; }
     .main-video .main-video__video {
       margin: auto;
-      max-width: 100%; }
+      max-width: 100%;
+      pointer-events: none; }
   .introduccion {
     max-width: 700px;
     margin-top: -30px; }
@@ -1210,7 +1257,8 @@ body {
       line-height: 200%;
       text-shadow: 1px 1px black;
       font-weight: 900;
-      font-size: calc(0.5rem + 0.8vw); }
+      font-size: calc(0.8rem + 0.8vw);
+      padding: 0 20px; }
   /* CONTENIDO Y REGLAS */
   .sinopsis {
     width: 700px;
@@ -1227,7 +1275,8 @@ body {
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900;
-        font-size: calc(0.5rem + 0.8vw); }
+        font-size: calc(0.8rem + 0.8vw);
+        padding: 0 20px; }
   .comienzo {
     max-width: 700px;
     padding: 10px 0; }
@@ -1241,7 +1290,8 @@ body {
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900;
-        font-size: calc(0.5rem + 0.8vw); }
+        font-size: calc(0.8rem + 0.8vw);
+        padding: 0 20px; }
   .tipos-de-cartas {
     max-width: 700px;
     margin: 0 auto;
@@ -1260,14 +1310,16 @@ body {
       .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__div-texto {
         display: block; }
         .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__div-texto .tipos-de-cartas__subtitulo-jugadores {
-          margin: 10px auto;
-          font-size: calc(1rem + 1vw); }
+          margin: auto;
+          font-size: calc(1rem + 1vw);
+          text-align: center; }
         .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__div-texto .tipos-de-cartas__parrafo-jugadores {
           width: 100%;
           line-height: 200%;
           text-shadow: 1px 1px black;
           font-weight: 900;
-          font-size: calc(0.5rem + 0.8vw); }
+          font-size: calc(0.8rem + 0.8vw);
+          padding: 0 20px; }
       .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__img-jug-y-dts {
         margin-top: -20px;
         max-width: 700px; }
@@ -1284,7 +1336,8 @@ body {
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900;
-        font-size: calc(0.5rem + 0.8vw); }
+        font-size: calc(0.8rem + 0.8vw);
+        padding: 0 20px; }
       .tipos-de-cartas .tipos-de-cartas__div-equipos .tipos-de-cartas__img-equipos {
         max-width: 700px;
         margin-top: 60px; }
@@ -1302,7 +1355,8 @@ body {
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900;
-        font-size: calc(0.5rem + 0.8vw); }
+        font-size: calc(0.8rem + 0.8vw);
+        padding: 0 20px; }
       .tipos-de-cartas .tipos-de-cartas__div-modificadoras .tipos-de-cartas__img-modificadoras {
         width: 700px;
         margin-bottom: 30px; }
@@ -1317,7 +1371,8 @@ body {
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900;
-        font-size: calc(0.5rem + 0.8vw); }
+        font-size: calc(0.8rem + 0.8vw);
+        padding: 0 20px; }
   .campeonato {
     max-width: 700px;
     display: flex;
@@ -1331,7 +1386,8 @@ body {
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900;
-        font-size: calc(0.5rem + 0.8vw); }
+        font-size: calc(0.8rem + 0.8vw);
+        padding: 0 20px; }
   .ganador {
     max-width: 700px;
     display: flex;
@@ -1344,12 +1400,14 @@ body {
       margin-top: 0;
       border-bottom: solid 1px #FFD163; }
       .ganador .ganador__div .ganador__titulo {
-        font-size: calc(1.3rem + 1vw); }
+        font-size: calc(1.3rem + 1vw);
+        padding: 0 20px; }
       .ganador .ganador__div .ganador__parrafo {
-        font-size: calc(0.5rem + 0.8vw);
+        font-size: calc(0.8rem + 0.8vw);
         line-height: 200%;
         text-shadow: 1px 1px black;
-        font-weight: 900; }
+        font-weight: 900;
+        padding: 0 20px; }
   .contenido {
     max-width: 700px;
     display: flex;
@@ -1362,9 +1420,10 @@ body {
       padding-bottom: 0;
       margin-bottom: 30px; }
       .contenido .contenido__div-total .contenido__div-total-subtitulo {
-        font-size: calc(1rem + 1vw); }
+        font-size: calc(1rem + 1vw);
+        padding: 0 20px; }
       .contenido .contenido__div-total .contenido__div-total-lista {
-        font-size: calc(0.5rem + 0.8vw);
+        font-size: calc(0.8rem + 0.8vw);
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900; }
@@ -1378,7 +1437,7 @@ body {
         font-size: calc(1rem + 1vw);
         text-align: center; }
       .contenido .contenido__div-cartas .contenido__div-modificadoras-lista {
-        font-size: calc(0.5rem + 0.8vw);
+        font-size: calc(0.8rem + 0.8vw);
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900; }
@@ -1393,10 +1452,11 @@ body {
       .section-creacion .section-creacion__div .section-creacion__titulo {
         font-size: calc(1.3rem + 1vw); }
       .section-creacion .section-creacion__div .section-creacion__parrafo {
-        font-size: calc(0.5rem + 0.8vw);
+        font-size: calc(0.8rem + 0.8vw);
         line-height: 200%;
         text-shadow: 1px 1px black;
-        font-weight: 900; }
+        font-weight: 900;
+        padding: 0 20px; }
   .section-youtube {
     max-width: 700px;
     padding-top: 10px;
@@ -1484,12 +1544,12 @@ body {
           width: 80%; }
         .section-form .form .form__div .form__div-textarea {
           width: 80%;
-          font-size: calc(0.5rem + 0.8vw); }
+          font-size: calc(0.8rem + 0.8vw); }
         .section-form .form .form__div .form__label {
-          font-size: calc(0.5rem + 0.8vw);
+          font-size: calc(0.8rem + 0.8vw);
           top: -4vh; }
         .section-form .form .form__div input, .section-form .form .form__div textarea {
-          font-size: calc(0.5rem + 0.8vw); }
+          font-size: calc(0.8rem + 0.8vw); }
         .section-form .form .form__div input:focus ~ label, .section-form .form .form__div input:valid ~ label {
           top: -10vh;
           font-size: calc(1rem + 1vw); }
@@ -1527,9 +1587,9 @@ body {
         .header .header__nav .header__div-menu .header__boton:hover {
           color: #224F99; }
         .header .header__nav .header__div-menu .header__div-submenu {
+          right: 0;
           display: none;
           position: absolute;
-          left: -200px;
           background-color: #165C21;
           min-width: 350px;
           z-index: 1; }
@@ -1555,7 +1615,7 @@ body {
   .footer .footer__div-enlaces .footer__fulbo .footer__titulo {
     font-size: calc(1rem + 1vw); }
   .footer .footer__div-enlaces .footer__fulbo .footer__insta, .footer .footer__div-enlaces .footer__fulbo .footer__email, .footer .footer__div-enlaces .footer__fulbo .footer__face {
-    font-size: calc(0.5rem + 0.8vw); }
+    font-size: calc(0.8rem + 0.8vw); }
   .footer .footer__div-enlaces .footer__fulbo .footer__icono {
     font-size: calc(1rem + 0.8vw); }
   .footer .footer__div-enlaces .footer__creador {
@@ -1567,17 +1627,18 @@ body {
     .footer .footer__div-enlaces .footer__creador .footer__titulo {
       font-size: calc(1rem + 1vw); }
     .footer .footer__div-enlaces .footer__creador .footer__behance {
-      font-size: calc(0.5rem + 0.8vw); }
+      font-size: calc(0.8rem + 0.8vw); }
     .footer .footer__div-enlaces .footer__creador .footer__icono {
       font-size: calc(1rem + 0.8vw); }
   .footer .footer__div-enlaces .footer__diseño .footer__titulo {
-    font-size: calc(0.5rem + 0.8vw); }
+    font-size: calc(0.8rem + 0.8vw); }
   /* INDEX */
   .main-video {
     margin: -100px auto 10px auto; }
     .main-video .main-video__video {
       margin: auto;
-      max-width: 100%; }
+      max-width: 100%;
+      pointer-events: none; }
   .introduccion {
     max-width: 900px;
     margin-top: -30px; }
@@ -1587,7 +1648,8 @@ body {
       line-height: 200%;
       text-shadow: 1px 1px black;
       font-weight: 900;
-      font-size: calc(0.5rem + 0.8vw); }
+      font-size: calc(0.8rem + 0.8vw);
+      padding: 0 20px; }
   /* CONTENIDO Y REGLAS */
   .sinopsis {
     width: 900px;
@@ -1604,7 +1666,8 @@ body {
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900;
-        font-size: calc(0.5rem + 0.8vw); }
+        font-size: calc(0.8rem + 0.8vw);
+        padding: 0 20px; }
   .comienzo {
     max-width: 900px;
     padding: 10px 0; }
@@ -1618,7 +1681,8 @@ body {
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900;
-        font-size: calc(0.5rem + 0.8vw); }
+        font-size: calc(0.8rem + 0.8vw);
+        padding: 0 20px; }
   .tipos-de-cartas {
     max-width: 900px;
     margin: 0 auto;
@@ -1644,7 +1708,8 @@ body {
           line-height: 200%;
           text-shadow: 1px 1px black;
           font-weight: 900;
-          font-size: calc(0.5rem + 0.8vw); }
+          font-size: calc(0.8rem + 0.8vw);
+          padding: 0 20px; }
       .tipos-de-cartas .tipos-de-cartas__div-jug-y-dts .tipos-de-cartas__img-jug-y-dts {
         margin-top: -20px;
         max-width: 900px; }
@@ -1661,7 +1726,8 @@ body {
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900;
-        font-size: calc(0.5rem + 0.8vw); }
+        font-size: calc(0.8rem + 0.8vw);
+        padding: 0 20px; }
       .tipos-de-cartas .tipos-de-cartas__div-equipos .tipos-de-cartas__img-equipos {
         max-width: 900px;
         margin-top: 60px; }
@@ -1679,7 +1745,8 @@ body {
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900;
-        font-size: calc(0.5rem + 0.8vw); }
+        font-size: calc(0.8rem + 0.8vw);
+        padding: 0 20px; }
       .tipos-de-cartas .tipos-de-cartas__div-modificadoras .tipos-de-cartas__img-modificadoras {
         width: 900px;
         margin-bottom: 30px; }
@@ -1694,7 +1761,8 @@ body {
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900;
-        font-size: calc(0.5rem + 0.8vw); }
+        font-size: calc(0.8rem + 0.8vw);
+        padding: 0 20px; }
   .campeonato {
     max-width: 900px;
     display: flex;
@@ -1708,7 +1776,8 @@ body {
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900;
-        font-size: calc(0.5rem + 0.8vw); }
+        font-size: calc(0.8rem + 0.8vw);
+        padding: 0 20px; }
   .ganador {
     max-width: 900px;
     display: flex;
@@ -1723,7 +1792,7 @@ body {
       .ganador .ganador__div .ganador__titulo {
         font-size: calc(1.3rem + 1vw); }
       .ganador .ganador__div .ganador__parrafo {
-        font-size: calc(0.5rem + 0.8vw);
+        font-size: calc(0.8rem + 0.8vw);
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900; }
@@ -1739,9 +1808,10 @@ body {
       padding-bottom: 0;
       margin-bottom: 30px; }
       .contenido .contenido__div-total .contenido__div-total-subtitulo {
-        font-size: calc(1rem + 1vw); }
+        font-size: calc(1rem + 1vw);
+        padding: 0 20px; }
       .contenido .contenido__div-total .contenido__div-total-lista {
-        font-size: calc(0.5rem + 0.8vw);
+        font-size: calc(0.8rem + 0.8vw);
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900; }
@@ -1755,7 +1825,7 @@ body {
         font-size: calc(1rem + 1vw);
         text-align: center; }
       .contenido .contenido__div-cartas .contenido__div-modificadoras-lista {
-        font-size: calc(0.5rem + 0.8vw);
+        font-size: calc(0.8rem + 0.8vw);
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900; }
@@ -1770,7 +1840,7 @@ body {
       .section-creacion .section-creacion__div .section-creacion__titulo {
         font-size: calc(1.3rem + 1vw); }
       .section-creacion .section-creacion__div .section-creacion__parrafo {
-        font-size: calc(0.5rem + 0.8vw);
+        font-size: calc(0.8rem + 0.8vw);
         line-height: 200%;
         text-shadow: 1px 1px black;
         font-weight: 900; }
@@ -1854,12 +1924,12 @@ body {
           width: 80%; }
         .section-form .form .form__div .form__div-textarea {
           width: 80%;
-          font-size: calc(0.5rem + 0.8vw); }
+          font-size: calc(0.8rem + 0.8vw); }
         .section-form .form .form__div .form__label {
-          font-size: calc(0.5rem + 0.8vw);
+          font-size: calc(0.8rem + 0.8vw);
           top: -4vh; }
         .section-form .form .form__div input, .section-form .form .form__div textarea {
-          font-size: calc(0.5rem + 0.8vw); }
+          font-size: calc(0.8rem + 0.8vw); }
         .section-form .form .form__div input:focus ~ label, .section-form .form .form__div input:valid ~ label {
           top: -10vh;
           font-size: calc(1rem + 1vw); }
